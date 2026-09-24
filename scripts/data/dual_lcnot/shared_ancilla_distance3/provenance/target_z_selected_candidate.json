@@ -1,0 +1,28 @@
+{
+  "additional_crossing_cx": 14,
+  "additional_cx": 594,
+  "additional_measurements": 178,
+  "additional_ticks": 18,
+  "crossing_cx": 70,
+  "num_detectors": 976,
+  "num_measurements": 1155,
+  "num_observables": 2,
+  "num_qubits": 199,
+  "num_ticks": 128,
+  "observable_order": {
+    "0": "bottom target Z",
+    "1": "top target Z"
+  },
+  "physical_change": "Insert an alternating A/B pair of syndrome rounds before original tick 38, extending the first merge from 4 to 6 rounds. The seam readout moves from tick 54 to tick 72. All original physical operations remain in their original order.",
+  "reference_reports": [
+    "extended_channel_audit.json",
+    "tqecd/plus2_tqecd_rebase_report.json",
+    "diagnostics/extended_merge_plus2_annotated_information.json"
+  ],
+  "scope": "Dual-LCNOT target-Z readout simulation with a complete regenerated 976-detector basis.",
+  "selection_basis": "Verified signed logical Z flows, removed every intrinsic two-link-fault syndrome ambiguity, passed strict DEM decomposition and all raw single-fault decoder checks. No Monte Carlo results were used for selection.",
+  "sha256": "c26e16218e7e850c043557d44d5e2191e77c31149ea822e8f307efc0704cba94",
+  "source_baseline": "source-archive/circuit-analysis/marked_observables_ler_x8/decoder_circuit.stim",
+  "source_candidate": "source-archive/circuit-analysis/link_asymmetry_fix/tqecd/plus2_tqecd_rebased.stim",
+  "total_cx": 3410
+}

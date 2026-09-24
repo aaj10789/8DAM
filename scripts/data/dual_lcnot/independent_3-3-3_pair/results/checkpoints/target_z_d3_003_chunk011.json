@@ -1,0 +1,26 @@
+{
+  "architecture": "d3",
+  "batch_size": 100000,
+  "chunk_index": 11,
+  "circuit_path": "../../noisy_circuits/p003.stim",
+  "complete": true,
+  "dem_path": "../../decoder_dems/p003.dem",
+  "elapsed_seconds": 1.324818814988248,
+  "errors": {
+    "target": 134
+  },
+  "key": "d3_003",
+  "noisy_circuit_sha256": "6b2eaa038a34f2b9202dc8814b95c27b63d5b8d9fc52ee65cae26e6e7d0055c8",
+  "p_link": 0.003,
+  "runner_sha256": "a5b3ff213183469ee131514e48f5b1850e58740bf603c6287062da2e2d247b12",
+  "seed": 202609212030011,
+  "shots": 1000000,
+  "strict_dem_sha256": "8be98d87c9186ba8b934a7bd0b5419b4fcd88738d384e3b5805584e6e3db806b",
+  "task_id": "d3_003_chunk011",
+  "versions": {
+    "numpy": "1.26.4",
+    "pymatching": "2.4.0",
+    "python": "3.10.0",
+    "stim": "1.15.0"
+  }
+}

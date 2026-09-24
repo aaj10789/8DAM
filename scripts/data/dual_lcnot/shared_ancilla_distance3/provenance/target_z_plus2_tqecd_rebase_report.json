@@ -1,0 +1,174 @@
+{
+  "boundary": {
+    "boundary_x": 8,
+    "crossing_cx": 70,
+    "crossing_rule": "(x1 < 8) != (x2 < 8)",
+    "distinct_crossing_links": 7,
+    "edges": [
+      {
+        "coordinates": [
+          [
+            7.5,
+            4.5
+          ],
+          [
+            8.0,
+            4.0
+          ]
+        ],
+        "occurrences": 10,
+        "qubits": [
+          87,
+          94
+        ]
+      },
+      {
+        "coordinates": [
+          [
+            7.5,
+            5.5
+          ],
+          [
+            8.0,
+            5.0
+          ]
+        ],
+        "occurrences": 10,
+        "qubits": [
+          88,
+          95
+        ]
+      },
+      {
+        "coordinates": [
+          [
+            7.5,
+            6.5
+          ],
+          [
+            8.0,
+            6.0
+          ]
+        ],
+        "occurrences": 10,
+        "qubits": [
+          89,
+          96
+        ]
+      },
+      {
+        "coordinates": [
+          [
+            7.5,
+            7.5
+          ],
+          [
+            8.0,
+            7.0
+          ]
+        ],
+        "occurrences": 10,
+        "qubits": [
+          90,
+          97
+        ]
+      },
+      {
+        "coordinates": [
+          [
+            7.5,
+            8.5
+          ],
+          [
+            8.0,
+            8.0
+          ]
+        ],
+        "occurrences": 10,
+        "qubits": [
+          91,
+          98
+        ]
+      },
+      {
+        "coordinates": [
+          [
+            7.5,
+            9.5
+          ],
+          [
+            8.0,
+            9.0
+          ]
+        ],
+        "occurrences": 10,
+        "qubits": [
+          92,
+          99
+        ]
+      },
+      {
+        "coordinates": [
+          [
+            7.5,
+            10.5
+          ],
+          [
+            8.0,
+            10.0
+          ]
+        ],
+        "occurrences": 10,
+        "qubits": [
+          93,
+          100
+        ]
+      }
+    ],
+    "idle_noise": false,
+    "p_link": 0.01,
+    "p_local": 0.0001,
+    "qpu_a": "x < 8",
+    "qpu_b": "x >= 8",
+    "total_cx": 3410
+  },
+  "detector_rank": 976,
+  "logical_output_parities_not_admitted_as_detectors": true,
+  "measurements": 1155,
+  "observables": 2,
+  "output": "source-archive/circuit-analysis/link_asymmetry_fix/tqecd/plus2_tqecd_rebased.stim",
+  "preflight": {
+    "correlated": {
+      "loaded": true,
+      "raw_fault_mechanisms": 14783,
+      "single_fault_failures_by_observable": [
+        0,
+        0
+      ],
+      "single_fault_failures_either": 0
+    },
+    "standard": {
+      "loaded": true,
+      "raw_fault_mechanisms": 14783,
+      "single_fault_failures_by_observable": [
+        0,
+        0
+      ],
+      "single_fault_failures_either": 0
+    }
+  },
+  "quantum_operations_and_observable_rows_unchanged": true,
+  "qubits": 199,
+  "raw_candidate": "source-archive/circuit-analysis/link_asymmetry_fix/tqecd/plus2_tqecd_raw.stim",
+  "raw_detector_count": 943,
+  "raw_kept_independent_rank": 943,
+  "rows_outside_allowed_span_rejected": [],
+  "same_allowed_detector_row_space": true,
+  "signed_all_detectors_pass": true,
+  "source": "source-archive/circuit-analysis/link_asymmetry_fix/extended_merge_plus2_annotated.stim",
+  "source_sha256": "ea363d4a1fc3c097a129496a4df9325ff38e835cada67ace0ed3be45628986d3",
+  "strict_decomposition_pass": true,
+  "supplemental_rows": 33,
+  "ticks": 128,
+  "tqecd_version": "0.1.2"
+}

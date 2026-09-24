@@ -1,0 +1,153 @@
+{
+  "original_sha256": "20e44a985917949177fdf1fcf1f431ce1d6568607c9481d84abbb3fe32424d06",
+  "original_source_label": "<original-single-project>/results/tqecd_mixed_with_standard_d5d5d5_target_z_paired_decoders_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 824,
+        "sha256": "dd9ea0d8aaa7c0ca14ced94ba4206f0a6f011d4573f511e98b5f527cd2381a16"
+      },
+      "combined_paired_decoder_contingency.csv": {
+        "bytes": 1758,
+        "sha256": "1391568d318d3245ce0be8d251f48d95f7a7539266951581a9fb51e0b43a1797"
+      },
+      "final_qa.json": {
+        "bytes": 18020,
+        "sha256": "cfaa23529b798ec4e12e0c113620d93cd77b335877a4048e21a25bcc507b2be7"
+      },
+      "progress/standard_d5_p001.json": {
+        "bytes": 1443,
+        "sha256": "3996112d68a2c1265cfbd45b0640fbc7169ff136f2def1d616b62815755ef7dd"
+      },
+      "progress/standard_d5_p002.json": {
+        "bytes": 1445,
+        "sha256": "9b48953dd71c6d812b4a79bb7d13a17c5db0fe518e5f372834158fe756812d5e"
+      },
+      "progress/standard_d5_p003.json": {
+        "bytes": 1445,
+        "sha256": "7089c229670900084c7cb2849cded69fdfc9d6b0882b208492f1e8c9aa83b01a"
+      },
+      "progress/standard_d5_p004.json": {
+        "bytes": 1447,
+        "sha256": "347cdd2a7cf6fc99ab821dadd26ca820f181aa2cfa49732b6999fe96e5ed82cb"
+      },
+      "progress/standard_d5_p005.json": {
+        "bytes": 1447,
+        "sha256": "b90d733a07acdf046375ff6593177b0af3df6b3830e5bab6d363a66e64a59dfd"
+      },
+      "progress/standard_d5_p006.json": {
+        "bytes": 1448,
+        "sha256": "f2e86bcf7061e18c85401daebad8c570707fde1e4960e9d859dced57c7a37a97"
+      },
+      "progress/standard_d5_p007.json": {
+        "bytes": 1449,
+        "sha256": "e27ee09d1a16f0621dd0d27fdd7bfd2f1882fff09798c9ae76f4657d3145447d"
+      },
+      "progress/standard_d5_p008.json": {
+        "bytes": 1449,
+        "sha256": "12ee2bf9abb869954c9097d0075ca82ab6a89819f61d2d574d3eb115384bbb8d"
+      },
+      "progress/standard_d5_p009.json": {
+        "bytes": 1450,
+        "sha256": "ebc792c232a9bbcfb483496164277a6a1e04bcce877b2042659503abf97588a3"
+      },
+      "progress/standard_d5_p010.json": {
+        "bytes": 1450,
+        "sha256": "4ffa144dac71e93c29335efeba9d1ff36d4be40920d331b4a6377c52fec1056d"
+      },
+      "run_config.json": {
+        "bytes": 3325,
+        "sha256": "3f865ca2a5a3f84473d6b2dacc132338d6fe32f9ee784681b1008d7055f34322"
+      },
+      "standard_d5d5d5_paired_decoder_contingency.csv": {
+        "bytes": 677,
+        "sha256": "3ffc6406c6e1afd20bc60a005cb1cd1a3b974c7f5746b99f00332c5759ecc9cb"
+      },
+      "standard_d5d5d5_tqecd_paired_decoders_summary.csv": {
+        "bytes": 12874,
+        "sha256": "12ccddef92e5a19418a85cc7403a575bf0285aa229f02350245b50e7465235bc"
+      },
+      "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_correlated_pymatching.pdf": {
+        "bytes": 33139,
+        "sha256": "974f201fb0f9cbf5fdf46ad76ba545fe14490d48d425489825c4b7860e1e52dd"
+      },
+      "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_correlated_pymatching.png": {
+        "bytes": 356884,
+        "sha256": "7494f35009252a91a98f626fd948bc3f75a55ec91b4eced4c00f4f0314657c7f"
+      },
+      "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_correlated_pymatching.svg": {
+        "bytes": 98438,
+        "sha256": "8965da7ceaa5ebeca87e0580d7ae83e1a0072f685b23de3fea96442f5aa95f7f"
+      },
+      "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_standard_pymatching.pdf": {
+        "bytes": 33113,
+        "sha256": "19e5e29df369fab8e4f4797cc36e718c75166d08f1b0b8894b5d39b10f5e0571"
+      },
+      "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_standard_pymatching.png": {
+        "bytes": 357031,
+        "sha256": "59ffbbdf7251d315591e4d2ea5a4cda0a231251dbd995cd8e553c80b4e5ef215"
+      },
+      "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_standard_pymatching.svg": {
+        "bytes": 98282,
+        "sha256": "d5c5fd4deb4c995524ca5a1e00bbac093ce9ec1a7bd714479cc2a7788d2ad8a9"
+      },
+      "tqecd_three_series_paired_decoders_summary.csv": {
+        "bytes": 37175,
+        "sha256": "cae2068aad87d62d5b2eb0b18fb7dc9f723207199c15404a8b1eae3c97d5f4a8"
+      },
+      "tqecd_three_series_paired_decoders_summary.json": {
+        "bytes": 78256,
+        "sha256": "e83cef60642f9807e3278d7d8d8e786e05faa68cb5ff3a6243f19da39a2fe9f5"
+      }
+    },
+    "base_runner": {
+      "path": "<original-single-project>/scripts/run_plot_mixed_rotated_vs_original_target_z_paired_decoders.py",
+      "sha256": "aa25d2132213575bbb0a116a4b78ec9aa09fb2a2d1a8b11b1c5642653eba794f"
+    },
+    "plots": {
+      "correlated": [
+        "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_correlated_pymatching.png",
+        "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_correlated_pymatching.svg",
+        "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_correlated_pymatching.pdf"
+      ],
+      "standard": [
+        "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_standard_pymatching.png",
+        "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_standard_pymatching.svg",
+        "tqecd_mixed_original_rotated_and_standard_d5d5d5_target_z_standard_pymatching.pdf"
+      ]
+    },
+    "schema": "tqecd-mixed-with-standard-d5d5d5-paired-decoder-manifest-v1",
+    "scope": {
+      "combined_decoder_trials": 900000000,
+      "combined_physical_shots": 450000000,
+      "fresh_d5_physical_shots": 150000000,
+      "observable": "target-Z logical CNOT flow",
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "shots_per_circuit_rate": 15000000,
+      "zero_discards": true
+    },
+    "script": {
+      "path": "<original-single-project>/scripts/run_plot_tqecd_mixed_with_standard_d5d5d5_target_z_paired_decoders.py",
+      "sha256": "800757e571ec03155ef9da79b1eb381d54f769303a3980521d0caf273831fa06"
+    },
+    "software": {
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "stim": "1.15.0"
+    },
+    "status": "PASS"
+  }
+}

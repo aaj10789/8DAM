@@ -1,0 +1,91 @@
+{
+  "original_sha256": "b08dd94267ac857554d9177ae964362170cd1917b0e7282fdb73391d2c78b07e",
+  "original_source_label": "<original-single-project>/results/standard_d5d5d5_5555_exact_schedule_tqecd_control_x_sge5_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "detector_and_logical_rows.json": {
+        "bytes": 45138,
+        "path": "<original-single-project>/results/standard_d5d5d5_5555_exact_schedule_tqecd_control_x_sge5_v1/detector_and_logical_rows.json",
+        "sha256": "250d64b28ceb5140c7c036f4bdbe3b747eb5fe99884aa24df2e8348af7888ef2"
+      },
+      "standard_d5d5d5_5555_exact_schedule_tqecd_control_x.stim": {
+        "bytes": 100132,
+        "path": "<original-single-project>/results/standard_d5d5d5_5555_exact_schedule_tqecd_control_x_sge5_v1/standard_d5d5d5_5555_exact_schedule_tqecd_control_x.stim",
+        "sha256": "786729f64280a63db1ea3d973a0310dfb964ee646fd934fad98e0215dd83d047"
+      },
+      "validation_report.json": {
+        "bytes": 29039,
+        "path": "<original-single-project>/results/standard_d5d5d5_5555_exact_schedule_tqecd_control_x_sge5_v1/validation_report.json",
+        "sha256": "1c8b5805b79f5a53d54875aaa5b2ac1b68d834d06f23a56dac7b2bc3b7159e78"
+      }
+    },
+    "construction_scope": {
+      "construction_and_exact_validation_only": true,
+      "emitted_observable": "X_C(in) X_T(in) -> X_C(out)",
+      "monte_carlo_performed": false,
+      "physical_schedule_change": "persistent R->RX and terminal M->MX only"
+    },
+    "generator": {
+      "path": "<original-single-project>/scripts/generate_exact_schedule_standard_d5_control_x_tqecd.py",
+      "sha256": "743f6de53b480934f5845cb15af17f2b193fd7f1c9f5d1edaadcea12592c9092"
+    },
+    "key_results": {
+      "SGE_at_all_ten_rates": 5,
+      "boundary_x": 9.5,
+      "bulk_CX_locations": 4235,
+      "crossing_CX_locations": 45,
+      "detectors": 1248,
+      "determined_measurements": 1250,
+      "observable": "L0 = X_C(in) X_T(in) -> X_C(out)",
+      "rank_D_plus_both_X_logicals": 1250,
+      "stock_PyMatching_correlations_disabled": true,
+      "terminal_closure_rows_added": 0
+    },
+    "output_directory": "<original-single-project>/results/standard_d5d5d5_5555_exact_schedule_tqecd_control_x_sge5_v1",
+    "provenance": {
+      "accepted_target_z_bundle": {
+        "circuit": {
+          "bytes": 100079,
+          "path": "<original-single-project>/results/standard_d5d5d5_tqecd_detectors_sge5_v1/standard_d5d5d5_tqecd_target_z.stim",
+          "sha256": "55e6efe953d024637e09a7898c085e4157404bd8f65a9f0741692d8eca807193"
+        },
+        "manifest": {
+          "bytes": 2662,
+          "path": "<original-single-project>/results/standard_d5d5d5_tqecd_detectors_sge5_v1/manifest.json",
+          "sha256": "02e284fefc81c27a234d5937e63f3841d956a71224c6c184687d21d51886c77f"
+        },
+        "source_generator": {
+          "bytes": 24807,
+          "path": "<original-single-project>/scripts/generate_standard_d5d5d5_tqecd_detectors_sge5.py",
+          "sha256": "ae8a715ce5b5b9a0dcf494d48764edfe0eb97ce4909f0dc366461a12598f2b15"
+        },
+        "validation_report": {
+          "bytes": 22652,
+          "path": "<original-single-project>/results/standard_d5d5d5_tqecd_detectors_sge5_v1/validation_report.json",
+          "sha256": "33bec41453411a89d66dd1fd86ab6138c2ecf67fd04a0ea9ac0044110143574e"
+        }
+      },
+      "implementation_base": {
+        "bytes": 44266,
+        "path": "<original-single-project>/scripts/generate_exact_schedule_standard_d7_d9_control_x_tqecd.py",
+        "role": "pinned exact-schedule control-X implementation",
+        "sha256": "44b52e8d817dab248cbdc1dd7efef24a58532cd0e5f0141acda43464c4eef3f0"
+      },
+      "wrapper": {
+        "bytes": 22430,
+        "path": "<original-single-project>/scripts/generate_exact_schedule_standard_d5_control_x_tqecd.py",
+        "role": "fail-closed D5-only generator wrapper",
+        "sha256": "743f6de53b480934f5845cb15af17f2b193fd7f1c9f5d1edaadcea12592c9092"
+      }
+    },
+    "sampling_performed": false,
+    "schema": "standard-d5d5d5-5555-exact-schedule-tqecd-control-x-sge5-v1",
+    "source": {
+      "bytes": 100079,
+      "path": "<original-single-project>/results/standard_d5d5d5_tqecd_detectors_sge5_v1/standard_d5d5d5_tqecd_target_z.stim",
+      "sha256": "55e6efe953d024637e09a7898c085e4157404bd8f65a9f0741692d8eca807193"
+    },
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "original_sha256": "2bfa0376b8dd6079e5017906155cac46bd66aa14aa0792334cc8c2cd1c398d80",
+  "original_source_label": "<original-single-project>/results/tqecd_mixed_d5d5d5_with_completed_d3d3d3_target_z_paired_decoders_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 954,
+        "sha256": "94f85396be58e81a13107720dc6cee0229285b75e4acb4e7d9937c38c5403727"
+      },
+      "combined_paired_decoder_contingency.csv": {
+        "bytes": 2374,
+        "sha256": "4b960194bae5b9c577df3c22ff5d5633a61c7273f0ccc7916739d4e30ccf68da"
+      },
+      "final_qa.json": {
+        "bytes": 21854,
+        "sha256": "17b9125b20d95107ef6e72536ba00bbb688275219dc826243266b9e6cfb74e9c"
+      },
+      "progress/standard_d3_p001.json": {
+        "bytes": 1578,
+        "sha256": "13c63c642851b5db942e58be0cf34af267619b17ab92cb689866889aae057be6"
+      },
+      "progress/standard_d3_p002.json": {
+        "bytes": 1579,
+        "sha256": "3f58b45316d15ff4c9e7f35948c3978cd04f1b161419d02fc54717275320a0dc"
+      },
+      "progress/standard_d3_p003.json": {
+        "bytes": 1580,
+        "sha256": "f780e543a257f3366399006210c0972497deb2d7bcaba20576d3f6ac4257a0c7"
+      },
+      "progress/standard_d3_p004.json": {
+        "bytes": 1581,
+        "sha256": "8f2b7a88e89b8afd2cc397b207c23b7a640f2a3c47618a9fd6f35b07e729ea74"
+      },
+      "progress/standard_d3_p005.json": {
+        "bytes": 1581,
+        "sha256": "7424eb9df5bcd3302578d09180fd913c1f98f22af3a4c5849b9b85813b620759"
+      },
+      "progress/standard_d3_p006.json": {
+        "bytes": 1581,
+        "sha256": "95267b56e37e3ae837dedb61f10371165adaea1a36cfbb41b96b650a4abb7d83"
+      },
+      "progress/standard_d3_p007.json": {
+        "bytes": 1581,
+        "sha256": "52681fae2efe7cfcd2bd60e0535c1901afa8488fef36ac056ca4645252027bce"
+      },
+      "progress/standard_d3_p008.json": {
+        "bytes": 1581,
+        "sha256": "387a837736a3cc720fe39b2b2cb49454e2dbd36d2ba099f278b0934248f38795"
+      },
+      "progress/standard_d3_p009.json": {
+        "bytes": 1582,
+        "sha256": "dbd038e900a78d115213269cfbc007ac72b37f9b6eb0d0c57232de7d14bd1802"
+      },
+      "progress/standard_d3_p010.json": {
+        "bytes": 1581,
+        "sha256": "3aa3ace8e20d8f2234bd50ac4ce4692a0577fcc9caf4d1c6728919b79c29d95c"
+      },
+      "run_config.json": {
+        "bytes": 3332,
+        "sha256": "41f7cd0748c0726df370af45fc16e081104126657518260d5eb5cd7240cdf02e"
+      },
+      "standard_d3d3d3_completed_tqecd_paired_decoders_summary.csv": {
+        "bytes": 12862,
+        "sha256": "d2c13db2d2d725d6cf6548cf48bf0d59dd4da4dc160146cfff3c15ad3b701b29"
+      },
+      "standard_d3d3d3_paired_decoder_contingency.csv": {
+        "bytes": 749,
+        "sha256": "77efd3a8c691d941fc3a2e83847266c09f76492000a1a9b4ba07de9f522434ae"
+      },
+      "tqecd_four_series_paired_decoders_summary.csv": {
+        "bytes": 49645,
+        "sha256": "5805ce21e904d01e2f210d870d976c72898fb520c27e36760b67ed32b3f6634c"
+      },
+      "tqecd_four_series_paired_decoders_summary.json": {
+        "bytes": 104574,
+        "sha256": "80b6f8c02b8a1f59f722eb769e3f5391d1433d58c79662a2db70e4f70377cb24"
+      },
+      "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_correlated_pymatching.pdf": {
+        "bytes": 34377,
+        "sha256": "6b15bc492e004d14043d2dc3e7cc576ff3555ff1adcb3419b258dfae389b931b"
+      },
+      "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_correlated_pymatching.png": {
+        "bytes": 352819,
+        "sha256": "a4f8aec4748addd37181aec2fd5380a475cc9c2f5d41a31e9a9f313880c78bc9"
+      },
+      "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_correlated_pymatching.svg": {
+        "bytes": 107768,
+        "sha256": "b5b020756b6cd6d4218dc9fbaf96ad1bca04df60392cfdc58cab5b04ca83f409"
+      },
+      "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_standard_pymatching.pdf": {
+        "bytes": 34270,
+        "sha256": "0ee2ec8d738c71cc53c63000562c8c55e74aeced6e1485de310c3799294b8d34"
+      },
+      "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_standard_pymatching.png": {
+        "bytes": 346756,
+        "sha256": "d9c8c134d6833dd1b8b2b7ccae82581f5cb6c795f8065c9c0e9b4ada62ece677"
+      },
+      "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_standard_pymatching.svg": {
+        "bytes": 103777,
+        "sha256": "6743ed166def9f60f90c885191bb0e126242f17d8d2be6cd35f6afcb08c03ed6"
+      }
+    },
+    "parent_runner": {
+      "path": "<original-single-project>/scripts/run_plot_tqecd_mixed_with_standard_d5d5d5_target_z_paired_decoders.py",
+      "sha256": "800757e571ec03155ef9da79b1eb381d54f769303a3980521d0caf273831fa06"
+    },
+    "plots": {
+      "correlated": [
+        "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_correlated_pymatching.png",
+        "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_correlated_pymatching.svg",
+        "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_correlated_pymatching.pdf"
+      ],
+      "standard": [
+        "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_standard_pymatching.png",
+        "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_standard_pymatching.svg",
+        "tqecd_mixed_original_rotated_standard_d5d5d5_and_completed_d3d3d3_target_z_standard_pymatching.pdf"
+      ]
+    },
+    "schema": "tqecd-mixed-d5d5d5-with-completed-d3d3d3-paired-decoder-manifest-v1",
+    "scope": {
+      "combined_decoder_trials": 1200000000,
+      "combined_physical_shots": 600000000,
+      "fresh_d3_physical_shots": 150000000,
+      "observable": "target-Z logical CNOT flow",
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "shots_per_circuit_rate": 15000000,
+      "zero_discards": true
+    },
+    "script": {
+      "path": "<original-single-project>/scripts/run_plot_tqecd_mixed_d5d5d5_with_completed_d3d3d3_target_z_paired_decoders.py",
+      "sha256": "31266de356bcd27a2d206aa7fa51b769641e39233cc76dcc74fcb74017ce0bdc"
+    },
+    "software": {
+      "matplotlib": "3.7.1",
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "scipy": "1.15.3",
+      "stim": "1.15.0"
+    },
+    "status": "PASS"
+  }
+}

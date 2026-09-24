@@ -1,0 +1,288 @@
+{
+  "original_sha256": "f09fce591609528624393b7a6357fb6ea0c39f972c54c26b4836a100407dcb1b",
+  "original_source_label": "<original-single-project>/results/graph2_d5d11d5_30m_d7d7d7_45m_d9d9d9_45m_target_z_standard_pymatching_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "final_qa.json": {
+        "bytes": 3252,
+        "sha256": "0e324868e6fae9044fb067932d9c6d6f23440d6201af07e2769a74173a356c4a"
+      },
+      "graph2_d5d11d5_30m_d7d7d7_45m_d9d9d9_45m_target_z_standard_pymatching.png": {
+        "bytes": 214094,
+        "sha256": "4b941713c44abf93fc506aa43de03031ec111f96d3d651a9045b1d44c84608de"
+      },
+      "graph2_d5d11d5_30m_d7d7d7_45m_d9d9d9_45m_target_z_standard_pymatching.svg": {
+        "bytes": 30886,
+        "sha256": "13c86b4ad48170f7fc5f5b2c418fef7f012b0205ffc6cfbaaa97d0afe8e7c7b4"
+      },
+      "graph2_d5d11d5_30m_d7d7d7_45m_d9d9d9_45m_target_z_standard_pymatching_summary.csv": {
+        "bytes": 20910,
+        "sha256": "51e8b69ab74e741a7e03c99635f1bb3ec7b1a24ea81b078501d2e138a030de44"
+      },
+      "graph2_d5d11d5_30m_d7d7d7_45m_d9d9d9_45m_target_z_standard_pymatching_summary.json": {
+        "bytes": 41984,
+        "sha256": "a96f05e0c10156b160442f7994e409a2a42273c1dc437c6f82a697a71b3b6032"
+      },
+      "provenance.json": {
+        "bytes": 13823,
+        "sha256": "6ef83ff235f4f5e6138657f75037145448e2160d9a35fe06136061f66fd1406e"
+      }
+    },
+    "input_pins": {
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/README.md": {
+        "bytes": 385,
+        "sha256": "e522f82735629f6cff5e55c3fde5796dc176cb7803bffeb1bfff810e05299bb2"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/final_qa.json": {
+        "bytes": 1182,
+        "sha256": "1b0f8e110776205cc9b045a1937065be12b895286957027956b119563205c748"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/import_provenance.json": {
+        "bytes": 40658,
+        "sha256": "115ffe14344f2dcd2ca1a08a47c24ca224f570b14a68cea15691055ce30a80ac"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/manifest.json": {
+        "bytes": 3918,
+        "sha256": "35eab735e923dae90aaeaedfcb9add978e0b4bcb839290d82a6546fd1f5ec28c"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/mixed_d5_d11_d5_target_z_standard_pymatching_30m_summary.csv": {
+        "bytes": 7654,
+        "sha256": "12799e6d299bbb55fc3229096c8dec5f8085d36e685d018c950578c151708f37"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/mixed_d5_d11_d5_target_z_standard_pymatching_30m_summary.json": {
+        "bytes": 15811,
+        "sha256": "3e5ffd45f0ad3d20f9137875e889a65b8b156d91992a0198d974410e55762a87"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p001.json": {
+        "bytes": 6245,
+        "sha256": "cf6b7b2b0ae6aa4813708793e6fbdbbbd30ac8f227a35d62a2a8c2f3bc8ffcbc"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p002.json": {
+        "bytes": 6244,
+        "sha256": "cba497ac26c54553f4a73c10d1820e5d273396d006e1ee1564b833d2a378bce9"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p003.json": {
+        "bytes": 6244,
+        "sha256": "4566dca9aff38410a5c9fa5a914e646b9d9185d3565465a7598fe39d8df6d3d9"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p004.json": {
+        "bytes": 6244,
+        "sha256": "8b1df860245943431c51019e0d9454dc8ff58d49c34dd4a2c82f48f07e1890bb"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p005.json": {
+        "bytes": 6244,
+        "sha256": "27f1cc67d6745adf3f1b564236f27f6d356b7389b7c5d88d7bbf775f6d5ddd8f"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p006.json": {
+        "bytes": 6243,
+        "sha256": "eb95dc4a2c12b0556bd64b1ccbbcc380653c36be9080fdcec23b6f38952004ff"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p007.json": {
+        "bytes": 6243,
+        "sha256": "b403322bdcbee15239ea34133966360aef11984bb0e05bee0bff090ebfd83305"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p008.json": {
+        "bytes": 6244,
+        "sha256": "29ab03e3d6d458c8f35bb9c49da89b89f7e0409705bbb78690e4eae5c017e588"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p009.json": {
+        "bytes": 6243,
+        "sha256": "18b3b6f3a0661a6bd1f4ab7759e8b4cf9ed8e0dc52b053b7043f94e320ba5256"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/progress/mixed_d5_d11_d5_p010.json": {
+        "bytes": 6241,
+        "sha256": "4981257b8f8ef7a8ddc63f8b82f43a03b45047f7c69603552b0126e3dd9c1ee8"
+      },
+      "<original-single-project>/results/mixed_d5_d11_d5_sge5_boundary12_target_z_standard_pymatching_30m_reuse15m_v1/run_config.json": {
+        "bytes": 3856,
+        "sha256": "c71e0aa43f11562c636605e29d71654e24af762853ad2c556d28809f134b62f8"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/README.md": {
+        "bytes": 331,
+        "sha256": "90b77fbc5197ebb90f66c77eb4bb3538966205ed61bfb7cd10df86ab56c9912f"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/final_qa.json": {
+        "bytes": 2147,
+        "sha256": "e55b4d10cc397dbcf263d9781d8aa03350dd4275ca1ade163eeb493b3e04c3a8"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/import_provenance.json": {
+        "bytes": 15125,
+        "sha256": "8572555d90df0e522ddafd16af7996040a90c9d1a6b9ad1475340501d82b860c"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/manifest.json": {
+        "bytes": 3976,
+        "sha256": "79b820c07f806551e778401423b7597b9e3132a3edb7cc857e28fb8ea2161174"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p001.json": {
+        "bytes": 3129,
+        "sha256": "589ab8e161eb004861255e895fc898486aaba31b0c43798eeebccd737d9372b5"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p002.json": {
+        "bytes": 3129,
+        "sha256": "da64a53b4aca9feb354477e32efbf2e05ec80e23d432e15e70ca713e4e98d513"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p003.json": {
+        "bytes": 3129,
+        "sha256": "1ec97998dfbcb1409c5e52a916c0f9f260b54d1427fc5dd4bd9b7a3670da36ba"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p004.json": {
+        "bytes": 3129,
+        "sha256": "b7bd600162677fa8835a870a3d7a3cef3824142150a7077efb242d713058e347"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p005.json": {
+        "bytes": 3132,
+        "sha256": "f613ddd8a1eb40435fb965af339d193a1b853a8cf5c174295bceb24cb3a320d8"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p006.json": {
+        "bytes": 3132,
+        "sha256": "3080f8e176fb47b100726cb37c626010035bad8000c402135386d5a61197dc36"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p007.json": {
+        "bytes": 3133,
+        "sha256": "74d0b64b825b1c220bda0f418672ad7af701d6a1dde4c1ad193a4a7d74ae7d59"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p008.json": {
+        "bytes": 3133,
+        "sha256": "2c2fd98ca9ac845ccb558d1928e842e37f98fbf21584493deb25e94b67a480bc"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p009.json": {
+        "bytes": 3135,
+        "sha256": "d7c52b9dac6e4aac1f944fb7d7e7293127d47d33d1fe63020d8424e02e49d1e5"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/progress/standard_d7d7d7_p010.json": {
+        "bytes": 3133,
+        "sha256": "ad74d711a40d9552009fb81c393f090a34b9f02b758808e12fa168d2da089a5b"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/run_config.json": {
+        "bytes": 3949,
+        "sha256": "84d22c9b3cbc5073c512ef3e248e0c90fcbe16a01e902f874bcab26de89d6f8c"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/standard_d7d7d7_target_z_standard_pymatching_45m_summary.csv": {
+        "bytes": 7790,
+        "sha256": "f4de079d6b62d4062dd382e2b77b7a56350f43778d054ef4941d7d9bda784abb"
+      },
+      "<original-single-project>/results/standard_d7d7d7_7777_tqecd_target_z_standard_pymatching_45m_reuse30m_v1/standard_d7d7d7_target_z_standard_pymatching_45m_summary.json": {
+        "bytes": 15595,
+        "sha256": "a858c83f1b32217991229538ad4121870bdda592edf6da32a4989e5e232aa00c"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/final_qa.json": {
+        "bytes": 8537,
+        "sha256": "daf6ced7dc07a11151f2e2f457cfe56ae4641f7d00f436917b92028599119829"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/hardcoded_standard_d9d9d9_tqecd_target_z.stim": {
+        "bytes": 597367,
+        "sha256": "d49cf19b835fbd4ffcce9692418584db1e51a84aace84d0bc2346a7d14ea14ea"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/manifest.json": {
+        "bytes": 7853,
+        "sha256": "a49b183b85faab6b7b8a7c23acdbdad24199bc4ec7c8a6e7c2ef4706634c2cb5"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p001.json": {
+        "bytes": 1185,
+        "sha256": "dbb9c453eac6a009e992b73b01819e12623074ccf1283be667fbebe6629f55e9"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p002.json": {
+        "bytes": 1185,
+        "sha256": "3108fcd91e69de1b14d3448c8e9861f7031f31e97e9e24ded58a18779d5e6752"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p003.json": {
+        "bytes": 1185,
+        "sha256": "06b59fca08334f89ca3d4e86a47a8936c99e839107f20c5289a15d07d76a63dd"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p004.json": {
+        "bytes": 1185,
+        "sha256": "aad2d12d637d5a2945ce53fe30665dd7924d189371eb21e9486cae6655296644"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p005.json": {
+        "bytes": 1185,
+        "sha256": "41701acf75546fc22d4bde9253cd10439d282798d07473820fbfc58f00228672"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p006.json": {
+        "bytes": 1185,
+        "sha256": "bf64b6db654c8470be8c423349c7e4d00bad0738f85283d4665e18da1f225756"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p007.json": {
+        "bytes": 1186,
+        "sha256": "fb76a812d4fa48addaf660115e7353378c3b90546447a1d2d2b4c6310f819644"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p008.json": {
+        "bytes": 1187,
+        "sha256": "180ba9f4bed7458648c044ae0ac4fa91835d2a882e99bf097d072b4e127b9ce3"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p009.json": {
+        "bytes": 1187,
+        "sha256": "9c248abd9f5c014a1b2aefcfdba3fe793e4af859f777505bc9f32cf466a81c20"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/progress/p010.json": {
+        "bytes": 1186,
+        "sha256": "307961f11742a4f21305c3b8055687258ea51b06707ef571ac84c177e3762b87"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/reuse_provenance.json": {
+        "bytes": 6320,
+        "sha256": "a1907d445aaaf0992790de4f4f2c3b8c580768179ac30576c2a4b2412c114580"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/standard_d9d9d9_9999_target_z_standard_pymatching_45m_summary.csv": {
+        "bytes": 6932,
+        "sha256": "e24fe221f7364ef7db209ed67c80e37f7e0421ac125252ee02821d10779562b8"
+      },
+      "<original-single-project>/results/standard_d9d9d9_9999_hardcoded_target_z_standard_pymatching_45m_reuse30m_v1/standard_d9d9d9_9999_target_z_standard_pymatching_45m_summary.json": {
+        "bytes": 14150,
+        "sha256": "70a70c0a1203ea0b6b7260a6344639f6ba6e48c417f477e415af131bd612dab9"
+      }
+    },
+    "schema": "graph2-d5d11d5-30m-d7d7d7-45m-d9d9d9-45m-target-z-standard-pymatching-manifest-v1",
+    "scope": {
+      "combined_physical_shots": 1200000000,
+      "decoder": "standard_pymatching",
+      "dem_model": "strict_decomposed",
+      "exact_two_sided_cp95": true,
+      "legend_labels": [
+        "d5-d11-d5",
+        "d7-d7-d7",
+        "d9-d9-d9"
+      ],
+      "new_sampling_performed": false,
+      "normalized_field_count": 26,
+      "plots": [
+        "png",
+        "svg"
+      ],
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "series": [
+        "mixed_d5_d11_d5",
+        "standard_d7",
+        "standard_d9"
+      ],
+      "shots_per_rate": {
+        "mixed_d5_d11_d5": 30000000,
+        "standard_d7": 45000000,
+        "standard_d9": 45000000
+      },
+      "source_integer_counts_reconciled": true,
+      "wrong_tnr_mixed_series_excluded": true
+    },
+    "script": {
+      "path": "<original-single-project>/scripts/plot_graph2_mixed_d5_d11_d5_30m_standard_d7d7d7_45m_standard_d9d9d9_45m_target_z_standard_pymatching.py",
+      "sha256": "bb5dd0a6063f7d28bbb2cf8b1b5c6182c50a04a71b4f9ab5be20387df3f348cc"
+    },
+    "software": {
+      "matplotlib": "3.7.1",
+      "numpy": "1.26.4",
+      "python": "3.10.0",
+      "scipy": "1.15.3"
+    },
+    "status": "PASS"
+  }
+}

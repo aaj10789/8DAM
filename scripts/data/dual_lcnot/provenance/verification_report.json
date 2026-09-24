@@ -1,0 +1,25 @@
+{
+  "artifact_sha256": {
+    "comparison_data.csv": "3bea6823e552063df49fa0bbe03cc830300c6869674c08600baa6b29c046f366",
+    "counts_45m.csv": "273f83da2e5e13a46b22e0c817e44378a48c7993ca7af4bd5d80ad7ce508a92b",
+    "data_provenance.json": "0b7ef4e0cd19556727fb9e6bd52f4e91c2bbc7bca0e244bf9cf4d4a26b5b23b9",
+    "original_provenance.json": "8849f313cdb140f85f5054f0ee84f295bfe0e2cb792b4e15114d5eb49768fc3d",
+    "raw_results.json": "ec642e57a1496dd5c4d1df84fab5f8c99ac1ac48cfd7e06e1572ea8883f682a1",
+    "run_manifest.json": "61dbbd933cb270adc8d3bae0be67e475e1d3dcea15e40124d261bc907d079203"
+  },
+  "chunk_counts_reconciled": true,
+  "circuit_rate_points": 20,
+  "count_ledger_rows": 50,
+  "independent_chunks": 730,
+  "independent_pair_transform_verified": true,
+  "new_physical_shots": 730000000,
+  "new_seeds_disjoint_from_original_recheck_and_preflight_seeds": true,
+  "original_counts_reconciled": true,
+  "plotted_rows": 50,
+  "shots_per_point": 45000000,
+  "status": "PASS",
+  "total_physical_shots": 900000000,
+  "unique_new_seeds": 730,
+  "verifier_sha256": "aa5278fababff3036b759e3746b4066d43d5f950f69b0b82363267f4e919196d",
+  "wilson_intervals_verified": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "single_lcnot/5-5-5:control_x",
+  "clean_sha256": "786729f64280a63db1ea3d973a0310dfb964ee646fd934fad98e0215dd83d047",
+  "annotated_sha256": "30530474b0fbf780408eb12011b82244fb5e9ae09f9ed20e45a1ea3118193f68",
+  "polygon_count": 252,
+  "polygon_frame_ticks": [
+    0,
+    42,
+    83,
+    124
+  ],
+  "source_file": "daniel_d5_logical_x_authoritative_exact_bytes.stim",
+  "source_sha256": "6f056efe8296dc98c6cd9f17ed2f632a4f2c9910c212fef816954a1e6cdcfc1d",
+  "source_to_current_frame_ticks": {
+    "0": 0,
+    "43": 42,
+    "84": 83,
+    "125": 124
+  },
+  "coordinate_offset": [
+    0.0,
+    0.0
+  ],
+  "validation": {
+    "stim_circuit_equal": true,
+    "cx_sequence_equal": true,
+    "uniform_coordinate_translation": true
+  },
+  "method": "Restored original red-X/blue-Z polygon comments after verifying exact CNOT sequence and uniformly translated coordinate map; anchored frames to preceding CNOT layer. Green decorative boundary lines omitted.",
+  "visualization_only": true,
+  "no_new_detector_annotations": true,
+  "all_stim_operations_and_annotations_preserved": true,
+  "simulation_reference": "../../../../../single_lcnot/5-5-5/control_x.stim",
+  "visualization_file": "../../../../../single_lcnot/5-5-5/control_x_crumble.stim"
+}

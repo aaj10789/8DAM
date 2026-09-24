@@ -1,0 +1,68 @@
+{
+  "original_sha256": "8ce0903700085a4b2823093ec885abbc9351962b596c759d27e2b901a91d41c5",
+  "original_source_label": "<original-single-project>/results/standard_d3d3d3_completed_tqecd_detectors_sge3_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 879,
+        "sha256": "43d31b342aabb949eab580158b306090dc9533fda4ea72aadb6efabfd19ff6af"
+      },
+      "standard_d3d3d3_completed_tqecd_full_detslice_with_ops.svg": {
+        "bytes": 1759056,
+        "sha256": "d6b58d5cf6fc653bf2856f86ebf9d08ab603f7067e947b8dda677db38281cfde"
+      },
+      "standard_d3d3d3_completed_tqecd_target_z.stim": {
+        "bytes": 16242,
+        "sha256": "332556f43fbd5f05a7e9aafc01cf3388acefb38e7d98a8be6b901d0958e5a98e"
+      },
+      "standard_d3d3d3_completed_tqecd_tick_034.svg": {
+        "bytes": 21116,
+        "sha256": "a660c761e946c87dc0562460b285ea8f0b125fd524b34ef2a2742c4c9f86e54e"
+      },
+      "standard_d3d3d3_completed_tqecd_tick_044.svg": {
+        "bytes": 21677,
+        "sha256": "f47470b4a5457f4e377a1f6957b058df16de2f34e78124b677aa2e27377cd90e"
+      },
+      "standard_d3d3d3_completed_tqecd_tick_060.svg": {
+        "bytes": 19477,
+        "sha256": "4fc458a1cb6baf59b6490a75343a81ee563f8a5077062ccb5ec6ea59e08ea929"
+      },
+      "standard_d3d3d3_completed_tqecd_tick_068.svg": {
+        "bytes": 17227,
+        "sha256": "2847f1bf9e600a3f10e3dd23c266433c32c28b836f8e4421dd23eab3a0611507"
+      },
+      "standard_d3d3d3_completed_tqecd_tick_069.svg": {
+        "bytes": 12376,
+        "sha256": "7e39ed443d2b7c815ad6bb7e3b1255af12d0cc891d45e89fd7af7c81743709d0"
+      },
+      "validation_report.json": {
+        "bytes": 22340,
+        "sha256": "d8b7da2888f0755be011418670943e6477fcfb74c026dcb2bc19a8843881b01f"
+      }
+    },
+    "generator": {
+      "path": "<original-single-project>/scripts/generate_standard_d3d3d3_completed_tqecd_detectors_sge3.py",
+      "sha256": "5dc2c6c14db58bef13767ed083a44cf8d5ce1201a33b7c01e9ec324724f6cfad"
+    },
+    "output_directory": "<original-single-project>/results/standard_d3d3d3_completed_tqecd_detectors_sge3_v1",
+    "schema": "standard-d3d3d3-completed-tqecd-sge3-manifest-v1",
+    "scope": {
+      "all_ten_rates_circuit_and_strict_dem_sge": 3,
+      "boundary_x": 8.5,
+      "crossing_cx_locations": 15,
+      "detectors": 205,
+      "measurements": 258,
+      "observables": 1,
+      "qubits": 65,
+      "sampling_performed": false,
+      "ticks": 69,
+      "unique_crossing_edges": 5
+    },
+    "status": "PASS",
+    "tqecd": {
+      "git_commit": "6a2b0882a4f72545cac943ed66aece55d9d65747",
+      "version": "0.1.2"
+    }
+  }
+}

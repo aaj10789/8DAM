@@ -1,0 +1,21 @@
+p_link,decoder,series,ler,ci95_low,ci95_high,source_shots,source_errors,estimator,assumption,ci_method
+0.001,standard,single_d3,4.722222222222222e-05,4.525671997827752e-05,4.92730821481303e-05,45000000,2125,direct observed failure fraction,,95% Wilson
+0.002,standard,single_d3,7.833333333333333e-05,7.578983845970466e-05,8.096218057727904e-05,45000000,3525,direct observed failure fraction,,95% Wilson
+0.003,standard,single_d3,0.00012704444444444445,0.0001237938374623545,0.00013038039548033095,45000000,5717,direct observed failure fraction,,95% Wilson
+0.004,standard,single_d3,0.0001928,0.0001887859235429288,0.00019689940928432385,45000000,8676,direct observed failure fraction,,95% Wilson
+0.005,standard,single_d3,0.0002677111111111111,0.00026297370208935974,0.0002725338401704296,45000000,12047,direct observed failure fraction,,95% Wilson
+0.006,standard,single_d3,0.0003585777777777778,0.00035308860376433176,0.00036415225631498976,45000000,16136,direct observed failure fraction,,95% Wilson
+0.007,standard,single_d3,0.0004629555555555556,0.000456712972756124,0.00046928342505817976,45000000,20833,direct observed failure fraction,,95% Wilson
+0.008,standard,single_d3,0.0005768222222222222,0.0005698495673544803,0.000583880144352531,45000000,25957,direct observed failure fraction,,95% Wilson
+0.009,standard,single_d3,0.0007208444444444445,0.0007130453260747187,0.0007287288054876088,45000000,32438,direct observed failure fraction,,95% Wilson
+0.01,standard,single_d3,0.0008606444444444444,0.0008521191989251934,0.0008692549087688718,45000000,38729,direct observed failure fraction,,95% Wilson
+0.001,standard,two_independent_d3,9.444221450617284e-05,9.051139178585185e-05,9.854373645963622e-05,45000000,2125,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.002,standard,two_independent_d3,0.00015666053055555555,0.0001515739328197956,0.00016191780627987425,45000000,3525,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.003,standard,two_independent_d3,0.0002540727485980247,0.00024757235001051536,0.00026074379191313627,45000000,5717,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.004,standard,two_independent_d3,0.00038556282816,0.00037753620696092966,0.00039376004919127117,45000000,8676,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.005,standard,two_independent_d3,0.0005353505529832099,0.0005258782490107289,0.0005449934056468212,45000000,12047,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.006,standard,two_independent_d3,0.0007170269775328396,0.0007060525359665553,0.0007281719057642002,45000000,16136,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.007,standard,two_independent_d3,0.0009256967832646914,0.0009132173587727642,0.0009383466231833252,45000000,20833,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.008,standard,two_independent_d3,0.001153311720568395,0.0011393744061795467,0.0011674193726820927,45000000,25957,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.009,standard,two_independent_d3,0.0014411692721758025,0.0014255822185124003,0.0014569265653032702,45000000,32438,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints
+0.01,standard,two_independent_d3,0.0017205481800291356,0.0017035122907212098,0.0017377542134413247,45000000,38729,2*q-q^2 from single-CNOT estimate,two identical statistically independent standard d = 3 CNOT executions,monotone transform of single-CNOT 95% Wilson endpoints

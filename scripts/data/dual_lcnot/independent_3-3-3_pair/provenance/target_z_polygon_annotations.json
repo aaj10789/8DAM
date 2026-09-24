@@ -1,0 +1,40 @@
+{
+  "id": "dual_lcnot/independent_3-3-3_pair:target_z",
+  "clean_sha256": "332556f43fbd5f05a7e9aafc01cf3388acefb38e7d98a8be6b901d0958e5a98e",
+  "annotated_sha256": "295accf93b03a94fcbeb5543f304f14d23960a2ec0a8db592cfa191086f40d0a",
+  "polygon_count": 128,
+  "polygon_frame_ticks": [
+    0,
+    12,
+    35,
+    37,
+    61
+  ],
+  "source_file": "d3_standard.txt",
+  "source_sha256": "3224c1b852790c9f04b31a9a6a13e1c096d260ef7a06ec4b936d0a774766bff4",
+  "source_to_current_frame_ticks": {
+    "0": 0,
+    "12": 12,
+    "35": 35,
+    "37": 37,
+    "61": 61
+  },
+  "coordinate_offset": [
+    -2.5,
+    0.0
+  ],
+  "validation": {
+    "stim_circuit_equal": true,
+    "cx_sequence_equal": true,
+    "uniform_coordinate_translation": true
+  },
+  "method": "Restored original red-X/blue-Z polygon comments after verifying exact CNOT sequence and uniformly translated coordinate map; anchored frames to preceding CNOT layer. Green decorative boundary lines omitted.",
+  "relative_dir": "dual_lcnot/independent_3-3-3_pair:target_z",
+  "stim_equal": true,
+  "annotations_only": true,
+  "annotation_count": 128,
+  "note": "Identical circuit and visual annotations to single uniform 3-3-3 target-Z; reference dataset and independent-pair inference remain separately archived.",
+  "visualization_only": true,
+  "simulation_reference": "../../../../../dual_lcnot/independent_3-3-3_pair/target_z.stim",
+  "visualization_file": "../../../../../dual_lcnot/independent_3-3-3_pair/target_z_crumble.stim"
+}

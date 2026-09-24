@@ -1,0 +1,29 @@
+{
+  "architecture": "dual",
+  "batch_size": 100000,
+  "chunk_index": 17,
+  "circuit_path": "../../noisy_circuits/p006.stim",
+  "complete": true,
+  "dem_path": "../../decoder_dems/p006.dem",
+  "elapsed_seconds": 8.971777241997188,
+  "errors": {
+    "both": 4,
+    "bottom": 43,
+    "either": 80,
+    "top": 41
+  },
+  "key": "dual_006",
+  "noisy_circuit_sha256": "f746100dfb0a2b819566d22716bc4c231a8d356891de9489ac7787cfb1fb6831",
+  "p_link": 0.006,
+  "runner_sha256": "a5b3ff213183469ee131514e48f5b1850e58740bf603c6287062da2e2d247b12",
+  "seed": 202609211060017,
+  "shots": 1000000,
+  "strict_dem_sha256": "020fadf1beec1c500433552a70ab5bfdd3f069bd3a7e8ee070c7869cd15b5271",
+  "task_id": "dual_006_chunk017",
+  "versions": {
+    "numpy": "1.26.4",
+    "pymatching": "2.4.0",
+    "python": "3.10.0",
+    "stim": "1.15.0"
+  }
+}

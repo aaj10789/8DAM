@@ -1,0 +1,2388 @@
+{
+  "architecture": "shared_ancilla_distance3",
+  "basis": "Z",
+  "boundary_x": 8.0,
+  "clean_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/circuit.stim",
+  "clean_sha256": "c26e16218e7e850c043557d44d5e2191e77c31149ea822e8f307efc0704cba94",
+  "confidence_interval": "pointwise_95_percent_Wilson",
+  "decoder": "standard_pymatching",
+  "dem_options": {
+    "allow_gauge_detectors": false,
+    "approximate_disjoint_errors": false,
+    "block_decomposition_from_introducing_remnant_edges": false,
+    "decompose_errors": true,
+    "flatten_loops": false,
+    "ignore_decomposition_failures": false
+  },
+  "enable_correlations_at_compile": false,
+  "enable_correlations_at_decode": false,
+  "observable_order": {
+    "0": "bottom_target_Z",
+    "1": "top_target_Z"
+  },
+  "points": [
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "ece3d08672b57cc341e1b247314b518f234cadf8b388a9ec4804b556b2dd0624",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p001.stim",
+      "noisy_sha256": "fd05c4474f8c5240a2f9d85516e11bd900cca388c9724844daf8cee0a25d78da",
+      "p_link": 0.001,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.001,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p001.dem",
+      "strict_dem_sha256": "7fe13ecfc2cdace92ac5622418e5fd53a2a1e2d7246e6397af14bf8beb9f4cf7"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "1b4aaa1b5dd7d0dc6d11c4edaa2a1346a74ba0a4b7d301a7e6573003431a233c",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p002.stim",
+      "noisy_sha256": "f3e9ef1817e8fb2c7a719e217f2ddfc82b3147b95021534a799633b16377f4f9",
+      "p_link": 0.002,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.002,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p002.dem",
+      "strict_dem_sha256": "e92be7a9d5bad783627d5f5c96f7d7ed5e65e49665f287addb49f64ab5c1c6c3"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "569752ed233b118f4000b39f79fad01d30411d53118859e3fddf5ba17c740da9",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p003.stim",
+      "noisy_sha256": "85baf9de53a054486c8925a634973c44aa426f821a0df9d130b62593ec7d6440",
+      "p_link": 0.003,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.003,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p003.dem",
+      "strict_dem_sha256": "a2b9d176599a34a06d8522eb19450f006b1dc330da70ebe613a0a293c831a98f"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "e423198a437c3a19fd600df7a4a450665045c687680e4a33d9159da9dfa64a53",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p004.stim",
+      "noisy_sha256": "721e479d7c9d8f03c82b18a45b4464046b3920e8759d4db29cc58f18f734ae78",
+      "p_link": 0.004,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.004,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p004.dem",
+      "strict_dem_sha256": "a6ac0dac7a9def6818b403375f782d6ecf5364a5dff689793ba696ad91d65e36"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "944149c4a318c7c5e8c399d5ae00d0e559f86f2df2635c163442efe80c8d3b65",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p005.stim",
+      "noisy_sha256": "96e4caba4e4c37c704ce380584a1d8fa855740709110c722e59c03911461359e",
+      "p_link": 0.005,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.005,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p005.dem",
+      "strict_dem_sha256": "2be4e93f9a1f89e1c34631ae82263f23d52184c8ca36345fe66277b707e599c0"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "f5e9a7243ec0bd5757d8745e21c8fdf7ab5f050deca28a5d1931fccf2de89869",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p006.stim",
+      "noisy_sha256": "f746100dfb0a2b819566d22716bc4c231a8d356891de9489ac7787cfb1fb6831",
+      "p_link": 0.006,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.006,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p006.dem",
+      "strict_dem_sha256": "020fadf1beec1c500433552a70ab5bfdd3f069bd3a7e8ee070c7869cd15b5271"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "e165f3e5afb0c44a86dd1af6990b8e94b31e192065912570f5969b96b96c798c",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p007.stim",
+      "noisy_sha256": "cb800808284b2ab51d613563f607ca66bdab5665c77be6be0bff25e859f4f1f8",
+      "p_link": 0.007,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.007,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p007.dem",
+      "strict_dem_sha256": "e2bc8ff6f1b4211f4dd6b89483c40e645de6eeca6ed84179e0d3fc75ff8a8ec0"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "21a6a745473f4d1e373906e251e29bde115faa5990ba5afeea103653612eed75",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p008.stim",
+      "noisy_sha256": "53aead1ffaa9f304958617b68853fea1b0e634c6306ac5ff183053cfdc753d2d",
+      "p_link": 0.008,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.008,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p008.dem",
+      "strict_dem_sha256": "e2de2a59f60922c4ff62e2b3c556feb6eb01437d0f726ddc4bba0f80c17a68ff"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "d30d31030b1e09d50a591fd1c066d909e9e8328bce5fd3c6c1f1cf72d0ee8810",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p009.stim",
+      "noisy_sha256": "9702940058f3249d471db29e875b8350b85f95c7b63277ce17dca76846e8d73d",
+      "p_link": 0.009,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.009,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p009.dem",
+      "strict_dem_sha256": "439d26b794f550f3d464065eeaa5a41d9dcd06f005da3d6c6cb817adf7d2bc00"
+    },
+    {
+      "dem_options": {
+        "allow_gauge_detectors": false,
+        "approximate_disjoint_errors": false,
+        "block_decomposition_from_introducing_remnant_edges": false,
+        "decompose_errors": true,
+        "flatten_loops": false,
+        "ignore_decomposition_failures": false
+      },
+      "native_dem_sha256": "35792a2fa9d373f31e401283b1f85512abcf9952f843b16e5f82fe24395b9a85",
+      "native_dem_status": "Source-run hash preserved; native DEM not regenerated or stored by this exporter.",
+      "noisy_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/noisy_circuits/p010.stim",
+      "noisy_sha256": "95d185c83dd346448440b2be6deccb79c43cdc3432516dfa0ace5280bea71c59",
+      "p_link": 0.01,
+      "preflight": {
+        "boundary": {
+          "boundary_x": 8,
+          "crossing_cx": 70,
+          "crossing_rule": "(x1 < 8) != (x2 < 8)",
+          "distinct_crossing_links": 7,
+          "edges": [
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  4.5
+                ],
+                [
+                  8.0,
+                  4.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                87,
+                94
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  5.5
+                ],
+                [
+                  8.0,
+                  5.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                88,
+                95
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  6.5
+                ],
+                [
+                  8.0,
+                  6.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                89,
+                96
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  8.0,
+                  7.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                90,
+                97
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  8.5
+                ],
+                [
+                  8.0,
+                  8.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                91,
+                98
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  9.5
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                92,
+                99
+              ]
+            },
+            {
+              "coordinates": [
+                [
+                  7.5,
+                  10.5
+                ],
+                [
+                  8.0,
+                  10.0
+                ]
+              ],
+              "occurrences": 10,
+              "qubits": [
+                93,
+                100
+              ]
+            }
+          ],
+          "idle_noise": false,
+          "p_link": 0.01,
+          "p_local": 0.0001,
+          "qpu_a": "x < 8",
+          "qpu_b": "x >= 8",
+          "total_cx": 3410
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 14783
+      },
+      "strict_dem_path": "<original-single-project>/tmp/publication_release_20260922/dual_exports/dual/mixed/shared_ancilla_distance3/target_z/decoder_dems/p010.dem",
+      "strict_dem_sha256": "30c5bd72d2b56c55cefc23495e7ba94f350ff4a1553905a61a243386457535dc"
+    }
+  ],
+  "relative_dir": "dual/mixed/shared_ancilla_distance3/target_z",
+  "rows": [
+    {
+      "added_errors": 1736,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.234568567297353e-05,
+      "ci95_low": 3.862856205505883e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1820,
+      "is_derived": false,
+      "ler": 4.0444444444444444e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1820,
+      "metric": "bottom",
+      "original_errors": 84,
+      "original_shots": 2000000,
+      "p_link": 0.001,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1527,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.7249850055017636e-05,
+      "ci95_low": 3.3768842967322565e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1596,
+      "is_derived": false,
+      "ler": 3.5466666666666664e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1596,
+      "metric": "top",
+      "original_errors": 69,
+      "original_shots": 2000000,
+      "p_link": 0.001,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3153,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 7.592351456745669e-05,
+      "ci95_low": 7.091739420448531e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3302,
+      "is_derived": false,
+      "ler": 7.337777777777778e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3302,
+      "metric": "either",
+      "original_errors": 149,
+      "original_shots": 2000000,
+      "p_link": 0.001,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 110,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.043007580974053e-06,
+      "ci95_low": 2.109024397456512e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 114,
+      "is_derived": false,
+      "ler": 2.5333333333333334e-06,
+      "logical_basis": "Z",
+      "logical_errors": 114,
+      "metric": "both",
+      "original_errors": 4,
+      "original_shots": 2000000,
+      "p_link": 0.001,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1823,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.4731849720920595e-05,
+      "ci95_low": 4.0909064275404956e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1925,
+      "is_derived": false,
+      "ler": 4.277777777777778e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1925,
+      "metric": "bottom",
+      "original_errors": 102,
+      "original_shots": 2000000,
+      "p_link": 0.002,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1562,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.8114879760978675e-05,
+      "ci95_low": 3.459270200607717e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1634,
+      "is_derived": false,
+      "ler": 3.6311111111111114e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1634,
+      "metric": "top",
+      "original_errors": 72,
+      "original_shots": 2000000,
+      "p_link": 0.002,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3282,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 7.926786338092594e-05,
+      "ci95_low": 7.415082260727693e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3450,
+      "is_derived": false,
+      "ler": 7.666666666666667e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3450,
+      "metric": "either",
+      "original_errors": 168,
+      "original_shots": 2000000,
+      "p_link": 0.002,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 103,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 2.9216281209470024e-06,
+      "ci95_low": 2.0081816542315066e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 109,
+      "is_derived": false,
+      "ler": 2.4222222222222223e-06,
+      "logical_basis": "Z",
+      "logical_errors": 109,
+      "metric": "both",
+      "original_errors": 6,
+      "original_shots": 2000000,
+      "p_link": 0.002,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1764,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.311851124748988e-05,
+      "ci95_low": 3.9366847462656456e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1854,
+      "is_derived": false,
+      "ler": 4.12e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1854,
+      "metric": "bottom",
+      "original_errors": 90,
+      "original_shots": 2000000,
+      "p_link": 0.003,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1591,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.893416201520576e-05,
+      "ci95_low": 3.537341961526489e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1670,
+      "is_derived": false,
+      "ler": 3.7111111111111113e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1670,
+      "metric": "top",
+      "original_errors": 79,
+      "original_shots": 2000000,
+      "p_link": 0.003,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3259,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 7.865783572738118e-05,
+      "ci95_low": 7.356085036326058e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3423,
+      "is_derived": false,
+      "ler": 7.606666666666667e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3423,
+      "metric": "either",
+      "original_errors": 164,
+      "original_shots": 2000000,
+      "p_link": 0.003,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 96,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 2.726922590731772e-06,
+      "ci95_low": 1.8473316592434454e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 101,
+      "is_derived": false,
+      "ler": 2.2444444444444445e-06,
+      "logical_basis": "Z",
+      "logical_errors": 101,
+      "metric": "both",
+      "original_errors": 5,
+      "original_shots": 2000000,
+      "p_link": 0.003,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1818,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.4050238774297724e-05,
+      "ci95_low": 4.025734200251549e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1895,
+      "is_derived": false,
+      "ler": 4.211111111111111e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1895,
+      "metric": "bottom",
+      "original_errors": 77,
+      "original_shots": 2000000,
+      "p_link": 0.004,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1531,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.69994011164392e-05,
+      "ci95_low": 3.353040305874649e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1585,
+      "is_derived": false,
+      "ler": 3.522222222222222e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1585,
+      "metric": "top",
+      "original_errors": 54,
+      "original_shots": 2000000,
+      "p_link": 0.004,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3249,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 7.759584093588334e-05,
+      "ci95_low": 7.253395644418907e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3376,
+      "is_derived": false,
+      "ler": 7.502222222222222e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3376,
+      "metric": "either",
+      "original_errors": 127,
+      "original_shots": 2000000,
+      "p_link": 0.004,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 100,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 2.8000124262017593e-06,
+      "ci95_low": 1.9075751457246927e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 104,
+      "is_derived": false,
+      "ler": 2.311111111111111e-06,
+      "logical_basis": "Z",
+      "logical_errors": 104,
+      "metric": "both",
+      "original_errors": 4,
+      "original_shots": 2000000,
+      "p_link": 0.004,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1823,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.443649937429022e-05,
+      "ci95_low": 4.062663689357998e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1912,
+      "is_derived": false,
+      "ler": 4.248888888888889e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1912,
+      "metric": "bottom",
+      "original_errors": 89,
+      "original_shots": 2000000,
+      "p_link": 0.005,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1554,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.78645012578093e-05,
+      "ci95_low": 3.435419166209201e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1623,
+      "is_derived": false,
+      "ler": 3.6066666666666665e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1623,
+      "metric": "top",
+      "original_errors": 69,
+      "original_shots": 2000000,
+      "p_link": 0.005,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3273,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 7.865783572738118e-05,
+      "ci95_low": 7.356085036326058e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3423,
+      "is_derived": false,
+      "ler": 7.606666666666667e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3423,
+      "metric": "either",
+      "original_errors": 150,
+      "original_shots": 2000000,
+      "p_link": 0.005,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 104,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 2.994483130913458e-06,
+      "ci95_low": 2.0686599662162852e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 112,
+      "is_derived": false,
+      "ler": 2.488888888888889e-06,
+      "logical_basis": "Z",
+      "logical_errors": 112,
+      "metric": "both",
+      "original_errors": 8,
+      "original_shots": 2000000,
+      "p_link": 0.005,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1847,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.4572817638532746e-05,
+      "ci95_low": 4.075698527323992e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1918,
+      "is_derived": false,
+      "ler": 4.2622222222222224e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1918,
+      "metric": "bottom",
+      "original_errors": 71,
+      "original_shots": 2000000,
+      "p_link": 0.006,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1711,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.1595435367694496e-05,
+      "ci95_low": 3.7912145818874274e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1787,
+      "is_derived": false,
+      "ler": 3.971111111111111e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1787,
+      "metric": "top",
+      "original_errors": 76,
+      "original_shots": 2000000,
+      "p_link": 0.006,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3436,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 8.218190723792144e-05,
+      "ci95_low": 7.697011159418449e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3579,
+      "is_derived": false,
+      "ler": 7.953333333333333e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3579,
+      "metric": "either",
+      "original_errors": 143,
+      "original_shots": 2000000,
+      "p_link": 0.006,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 122,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.333442474482857e-06,
+      "ci95_low": 2.3519227917526443e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 126,
+      "is_derived": false,
+      "ler": 2.8e-06,
+      "logical_basis": "Z",
+      "logical_errors": 126,
+      "metric": "both",
+      "original_errors": 4,
+      "original_shots": 2000000,
+      "p_link": 0.006,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1857,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.511804427792752e-05,
+      "ci95_low": 4.127842520945502e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1942,
+      "is_derived": false,
+      "ler": 4.3155555555555555e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1942,
+      "metric": "bottom",
+      "original_errors": 85,
+      "original_shots": 2000000,
+      "p_link": 0.007,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1716,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.170911963285061e-05,
+      "ci95_low": 3.8020683756970225e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1792,
+      "is_derived": false,
+      "ler": 3.9822222222222224e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1792,
+      "metric": "top",
+      "original_errors": 76,
+      "original_shots": 2000000,
+      "p_link": 0.007,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3427,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 8.229483734089678e-05,
+      "ci95_low": 7.70794036944612e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3584,
+      "is_derived": false,
+      "ler": 7.964444444444445e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3584,
+      "metric": "either",
+      "original_errors": 157,
+      "original_shots": 2000000,
+      "p_link": 0.007,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 146,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.911154534480537e-06,
+      "ci95_low": 2.8408773073648367e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 150,
+      "is_derived": false,
+      "ler": 3.3333333333333333e-06,
+      "logical_basis": "Z",
+      "logical_errors": 150,
+      "metric": "both",
+      "original_errors": 4,
+      "original_shots": 2000000,
+      "p_link": 0.007,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1806,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.366394005298979e-05,
+      "ci95_low": 3.988808523276642e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1878,
+      "is_derived": false,
+      "ler": 4.1733333333333336e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1878,
+      "metric": "bottom",
+      "original_errors": 72,
+      "original_shots": 2000000,
+      "p_link": 0.008,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1668,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.0503880969990285e-05,
+      "ci95_low": 3.687036706535874e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1739,
+      "is_derived": false,
+      "ler": 3.864444444444444e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1739,
+      "metric": "top",
+      "original_errors": 71,
+      "original_shots": 2000000,
+      "p_link": 0.008,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3343,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 7.994562597540254e-05,
+      "ci95_low": 7.480639323231265e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3480,
+      "is_derived": false,
+      "ler": 7.733333333333333e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3480,
+      "metric": "either",
+      "original_errors": 137,
+      "original_shots": 2000000,
+      "p_link": 0.008,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 131,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 3.5987052814996808e-06,
+      "ci95_low": 2.575548831890346e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 137,
+      "is_derived": false,
+      "ler": 3.0444444444444444e-06,
+      "logical_basis": "Z",
+      "logical_errors": 137,
+      "metric": "both",
+      "original_errors": 6,
+      "original_shots": 2000000,
+      "p_link": 0.008,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1924,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.677599733228287e-05,
+      "ci95_low": 4.28649163225797e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 2015,
+      "is_derived": false,
+      "ler": 4.477777777777778e-05,
+      "logical_basis": "Z",
+      "logical_errors": 2015,
+      "metric": "bottom",
+      "original_errors": 91,
+      "original_shots": 2000000,
+      "p_link": 0.009,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1779,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.3595765694307816e-05,
+      "ci95_low": 3.982292626949716e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1875,
+      "is_derived": false,
+      "ler": 4.1666666666666665e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1875,
+      "metric": "top",
+      "original_errors": 96,
+      "original_shots": 2000000,
+      "p_link": 0.009,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3542,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 8.538863754369243e-05,
+      "ci95_low": 8.007449186077193e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3721,
+      "is_derived": false,
+      "ler": 8.268888888888889e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3721,
+      "metric": "either",
+      "original_errors": 179,
+      "original_shots": 2000000,
+      "p_link": 0.009,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 161,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.366055323633316e-06,
+      "ci95_low": 3.2304208905698747e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 169,
+      "is_derived": false,
+      "ler": 3.7555555555555557e-06,
+      "logical_basis": "Z",
+      "logical_errors": 169,
+      "metric": "both",
+      "original_errors": 8,
+      "original_shots": 2000000,
+      "p_link": 0.009,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1917,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.679870448536265e-05,
+      "ci95_low": 4.2886653610150326e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 2016,
+      "is_derived": false,
+      "ler": 4.48e-05,
+      "logical_basis": "Z",
+      "logical_errors": 2016,
+      "metric": "bottom",
+      "original_errors": 99,
+      "original_shots": 2000000,
+      "p_link": 0.01,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 1893,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.623098935960704e-05,
+      "ci95_low": 4.234325771964566e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 1991,
+      "is_derived": false,
+      "ler": 4.424444444444444e-05,
+      "logical_basis": "Z",
+      "logical_errors": 1991,
+      "metric": "top",
+      "original_errors": 98,
+      "original_shots": 2000000,
+      "p_link": 0.01,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 3644,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 8.782690853470475e-05,
+      "ci95_low": 8.243622046000402e-05,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 3829,
+      "is_derived": false,
+      "ler": 8.50888888888889e-05,
+      "logical_basis": "Z",
+      "logical_errors": 3829,
+      "metric": "either",
+      "original_errors": 185,
+      "original_shots": 2000000,
+      "p_link": 0.01,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    },
+    {
+      "added_errors": 166,
+      "added_shots": 43000000,
+      "architecture": "shared_ancilla_distance3",
+      "ci95_high": 4.580895285243752e-06,
+      "ci95_low": 3.4155808948131418e-06,
+      "confidence_interval": "pointwise_95_percent_Wilson",
+      "discards": 0,
+      "errors": 178,
+      "is_derived": false,
+      "ler": 3.955555555555556e-06,
+      "logical_basis": "Z",
+      "logical_errors": 178,
+      "metric": "both",
+      "original_errors": 12,
+      "original_shots": 2000000,
+      "p_link": 0.01,
+      "retained_shots": 45000000,
+      "shots": 45000000
+    }
+  ],
+  "scope": "Shared-ancilla dual LCNOT target-Z readout simulation with fixed-zero logical inputs. Observable 0 records bottom-target Z; observable 1 records top-target Z.",
+  "shots_per_point": 45000000,
+  "source_clean_path": "<original-dual-project>/link_asymmetry_fix/repaired_z.stim",
+  "source_csv": "<original-dual-project>/publication_dual_vs_two_d3/shots_45m/comparison_data.csv",
+  "versions": {
+    "numpy": "1.26.4",
+    "pymatching": "2.4.0",
+    "python": "3.10.0",
+    "stim": "1.15.0"
+  }
+}

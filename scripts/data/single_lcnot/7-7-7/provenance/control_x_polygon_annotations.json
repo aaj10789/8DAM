@@ -1,0 +1,24 @@
+{
+  "id": "single_lcnot/7-7-7:control_x",
+  "clean_sha256": "87c92f8f34b13a7205a42935f48322debf6d2e2d8ee59d6b42f102536aeee250",
+  "annotated_sha256": "ddaa94b207ac835917a6e077be70479f0521f32a2ff966e705dea240c9666cbc",
+  "polygon_count": 496,
+  "polygon_frame_ticks": [
+    0,
+    58,
+    116,
+    173
+  ],
+  "method": "Visualization-only red-X/blue-Z plaquette supports derived by back-propagating the actual round measurement through its Clifford circuit and removing initialized syndrome-ancilla Z factors. All checks reduce to weight two or four, with no anticommuting reset support; consecutive identical frames collapsed. Not a detector completeness or fault-tolerance certificate.",
+  "validation": {
+    "stim_circuit_equal": true,
+    "all_syndrome_measurements_have_local_2_or_4_body_support": true,
+    "number_syndrome_rounds": 28,
+    "number_round_checks": 3472
+  },
+  "visualization_only": true,
+  "no_new_detector_annotations": true,
+  "all_stim_operations_and_annotations_preserved": true,
+  "simulation_reference": "../../../../../single_lcnot/7-7-7/control_x.stim",
+  "visualization_file": "../../../../../single_lcnot/7-7-7/control_x_crumble.stim"
+}

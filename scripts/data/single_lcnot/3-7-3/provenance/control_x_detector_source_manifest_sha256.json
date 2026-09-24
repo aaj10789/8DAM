@@ -1,0 +1,49 @@
+{
+  "original_sha256": "055de1598abde60eaf50cf12dc39aae2bb0be4c17e1704c4f4f8c19663bf8c55",
+  "original_source_label": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "detector_and_logical_rows.json": {
+        "bytes": 55976,
+        "sha256": "103b5821922e53a4970a7c86d49556ddf7bd5ccb4da162fc799906c86ea41f7e"
+      },
+      "mixed_d3d7d3_top_bottom_first_supplied_control_x.stim": {
+        "bytes": 57785,
+        "sha256": "cd40bd12c1a96068865a6fb3507c3c68f01b112a42b4f150cb4375b2f1c2a3e1"
+      },
+      "mixed_d3d7d3_top_bottom_first_tqecd_reannotated_control_x.stim": {
+        "bytes": 57785,
+        "sha256": "6f73faff5449874e62504d2b807a4de7de5f17aa1e8fcbf5d59cdf7b1d1b2069"
+      },
+      "validation_report.json": {
+        "bytes": 4465,
+        "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/validation_report.json",
+        "sha256": "cb399981c1bc8921aa3a56f65061d506f0d61ed68593edf471e912e9d2260e48"
+      }
+    },
+    "generator": {
+      "bytes": 21947,
+      "path": "<original-single-project>/scripts/prepare_supplied_mixed_d3_d7_d3_top_bottom_first_control_x_tqecd.py",
+      "sha256": "9ceb45c02fda9e1089c98a69f6eb280b9e892d7ff8ea6d576d1b2431d38be81d"
+    },
+    "sampling_performed": false,
+    "schema": "mixed-d3-d7-d3-top-bottom-first-supplied-control-x-tqecd-v1-manifest",
+    "scope": {
+      "logical": "L0 = X_C(in) X_T(in) -> X_C(out)",
+      "merge_order": [
+        "top-bottom",
+        "left-right"
+      ],
+      "physical_determined_measurements": 690,
+      "sampling_performed": false,
+      "tqecd_detectors": 688
+    },
+    "source": {
+      "bytes": 57784,
+      "path": "<supplied-circuit>/pasted-text.txt",
+      "sha256": "c582f0746305ef7a397c0d46d5f40a8e4b40dc6b50110de6145172bea28cce0f"
+    },
+    "status": "PASS"
+  }
+}

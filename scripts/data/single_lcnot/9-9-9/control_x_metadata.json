@@ -1,0 +1,431 @@
+{
+  "all_points_have_45000000_shots": true,
+  "architecture": "9-9-9",
+  "boundary_x": 12.0,
+  "circuit_dimensions": {
+    "detectors": 7360,
+    "indexed_qubits": 521,
+    "measurements": 7641,
+    "observables": 1,
+    "ticks": 293
+  },
+  "clean_circuit": {
+    "path": "control_x.stim",
+    "sha256": "a1e00ab133aa72691359bffc2b009fb7ddc47e0754ac337adccc9c7c85f8bf17"
+  },
+  "confidence_interval_method": "clopper_pearson",
+  "crumble_file": "control_x_crumble.html",
+  "decoder": {
+    "enable_correlations_at_compile": false,
+    "enable_correlations_at_decode": false,
+    "name": "standard_pymatching"
+  },
+  "detector_provenance": "TQECD-derived with circuit-specific validated completion/closure checks; final annotations preserved.",
+  "family": "single_lcnot",
+  "id": "single_lcnot/9-9-9:control_x",
+  "kind": "uniform",
+  "logical_basis": "X",
+  "observable_flow": "L0 = X_C(in) X_T(in) -> X_C(out)",
+  "observables": [
+    {
+      "id": 0,
+      "label": "control_x"
+    }
+  ],
+  "p_local": 0.0001,
+  "points": [
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 0,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "17f4a03f1514adebb2761d648bc6eebe43574f7d69784d756cb26499a43ec4c1",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "d4ab1e31ed6aa82388bd12414e3956235b6b89368784e04eaec48ecb5686d055"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p001.stim",
+        "sha256": "a9f0e427155b481749ff0cd9e632f424def59b70a3b7479e75672005794087bb"
+      },
+      "p_link": 0.001
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 0,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "d298efd53dae9f245859d2fb23bc63b8c742c23c510447c700ed6b47c5c52728",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "6eb67a4072d7ae525eae900ca2f9cb2954eda460d0937b67012d37ed746c6ede"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p002.stim",
+        "sha256": "adef69ac2bc04f8d1c15465f0369fe49e083a162931c51ad27fbe74d4b03fe12"
+      },
+      "p_link": 0.002
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 0,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "6ae56cb4a1cade2c7e00c6ac85bb0d79b389af7de4759ac1fde0ae652ccf660f",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "cc0c209bc1d110261737d80640183c8f98a7e46456b369a4867d51b41dd1df0c"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p003.stim",
+        "sha256": "53c0f4fb8814c36f6b4b69ebbe47d55581841cbba82da50d5249af0873ce4808"
+      },
+      "p_link": 0.003
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 2,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "88e54ba00788bce4a36dd544b78e1713331da4fa48b24fab65495e3ea1b229cd",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "99b3e914c24041c0625dc7a58d5ce458e504cf97b1b8d6cdbaf736c1814ba77c"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p004.stim",
+        "sha256": "9618b2bf9f8c1823a54bc697dcbf67041db97a8fb06884e8881e7002d4f050ae"
+      },
+      "p_link": 0.004
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "cba904fa960c2c126d974cada3f9bb36195570fbcfd307991dfe46cb69204fcc",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "a1c239c0d262b172e67bd011e86e000d15c9a4054f0bbd2834b7aae2671e5ae9"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p005.stim",
+        "sha256": "83ba58c9b1648d3a97a1d2c9cfb7e48bdd2e97f617f4c83444fc3ab523b4d792"
+      },
+      "p_link": 0.005
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "5b594b6d66902d3b198fd4bb59da4fa54fd288327ff1d941eb3e65ca86e05eba",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "f124bb806050adbf5449d577252571e716b0f5d67945905693c527340d9a1e6b"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p006.stim",
+        "sha256": "693f3252dc7fa7d7454fbfa7a7c87bd309eea6c46d54c4675ab1682c5fffb52f"
+      },
+      "p_link": 0.006
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 10,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "30df7d58a3ceccc7624de8cdc3db1f964d286d23375725f6673735781fa1f44e",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "76f0be8201b76fec0984c82a18c8056273125567a3c825a8c13f7b046bac0a3f"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p007.stim",
+        "sha256": "b28968f2991547f6576117518ea35c15170a58b00c9fad3ba5adc6058652d8d9"
+      },
+      "p_link": 0.007
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 17,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "af271e235c03e0c7e8b82c2a6ed4b3fac4c61a6b6a24a1850e6eb31dc51b2475",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "db594ad651fa26a0955e7087b2d11de5fb1a29d4b076782a6ef582a98ebb0de7"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p008.stim",
+        "sha256": "ec23c6a58d55f8874073c5bda922ffaf60567b5b017d896e788c0832f1b698f0"
+      },
+      "p_link": 0.008
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 32,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "f23c74ccad1ff891a7e28175293d6001f503904b5566e919d486821973dbb794",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "b47fcd40994d72488e5495f7b44e429a71b79daf77c0c4fc13706ba002fa4f1b"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p009.stim",
+        "sha256": "af2fa6860865754407cf9dc1307da5ba47f82d685269e8850133466f74d3cf87"
+      },
+      "p_link": 0.009
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 51,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "3703556cf7602796f1ef16d76b3ced1dc1aad3381d0cb983167042723c8b9ed2",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "92ae5ba67fae7361bf97b056b99d4f360434e22031dc6e4daa6ad1c3e2166194"
+      },
+      "noise_counts": {
+        "bulk_two_qubit_locations": 26703,
+        "crossing_two_qubit_locations": 153,
+        "h_locations": 7479,
+        "m_locations": 7479,
+        "measurement_locations": 7641,
+        "mx_locations": 162,
+        "r_locations": 7479,
+        "rx_locations": 162,
+        "total_two_qubit_locations": 26856,
+        "x_locations": 0
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p010.stim",
+        "sha256": "eea68d2e156565b5db08e2ebec3cd2a7948dd3fe4a887645940e415b0e6f1a81"
+      },
+      "p_link": 0.01
+    }
+  ],
+  "recorded_shortest_graphlike_error": 9,
+  "results_file": "control_x_results.csv",
+  "scope": "control-X decoded logical-observable readout failure per complete single-CNOT circuit; not total gate failure."
+}

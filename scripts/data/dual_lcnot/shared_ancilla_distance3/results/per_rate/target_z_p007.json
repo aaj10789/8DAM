@@ -1,0 +1,171 @@
+{
+  "added_shots": 43000000,
+  "architecture": "dual",
+  "circuit_path": "../../noisy_circuits/p007.stim",
+  "complete": true,
+  "completed_chunks": 43,
+  "dem_path": "../../decoder_dems/p007.dem",
+  "errors": {
+    "both": 150,
+    "bottom": 1942,
+    "either": 3584,
+    "top": 1792
+  },
+  "native_dem_sha256": "e165f3e5afb0c44a86dd1af6990b8e94b31e192065912570f5969b96b96c798c",
+  "new_errors": {
+    "both": 146,
+    "bottom": 1857,
+    "either": 3427,
+    "top": 1716
+  },
+  "noisy_circuit_sha256": "cb800808284b2ab51d613563f607ca66bdab5665c77be6be0bff25e859f4f1f8",
+  "original_errors": {
+    "both": 4,
+    "bottom": 85,
+    "either": 157,
+    "top": 76
+  },
+  "original_shots": 2000000,
+  "p_link": 0.007,
+  "preflight": {
+    "boundary": {
+      "boundary_x": 8,
+      "crossing_cx": 70,
+      "crossing_rule": "(x1 < 8) != (x2 < 8)",
+      "distinct_crossing_links": 7,
+      "edges": [
+        {
+          "coordinates": [
+            [
+              7.5,
+              4.5
+            ],
+            [
+              8.0,
+              4.0
+            ]
+          ],
+          "occurrences": 10,
+          "qubits": [
+            87,
+            94
+          ]
+        },
+        {
+          "coordinates": [
+            [
+              7.5,
+              5.5
+            ],
+            [
+              8.0,
+              5.0
+            ]
+          ],
+          "occurrences": 10,
+          "qubits": [
+            88,
+            95
+          ]
+        },
+        {
+          "coordinates": [
+            [
+              7.5,
+              6.5
+            ],
+            [
+              8.0,
+              6.0
+            ]
+          ],
+          "occurrences": 10,
+          "qubits": [
+            89,
+            96
+          ]
+        },
+        {
+          "coordinates": [
+            [
+              7.5,
+              7.5
+            ],
+            [
+              8.0,
+              7.0
+            ]
+          ],
+          "occurrences": 10,
+          "qubits": [
+            90,
+            97
+          ]
+        },
+        {
+          "coordinates": [
+            [
+              7.5,
+              8.5
+            ],
+            [
+              8.0,
+              8.0
+            ]
+          ],
+          "occurrences": 10,
+          "qubits": [
+            91,
+            98
+          ]
+        },
+        {
+          "coordinates": [
+            [
+              7.5,
+              9.5
+            ],
+            [
+              8.0,
+              9.0
+            ]
+          ],
+          "occurrences": 10,
+          "qubits": [
+            92,
+            99
+          ]
+        },
+        {
+          "coordinates": [
+            [
+              7.5,
+              10.5
+            ],
+            [
+              8.0,
+              10.0
+            ]
+          ],
+          "occurrences": 10,
+          "qubits": [
+            93,
+            100
+          ]
+        }
+      ],
+      "idle_noise": false,
+      "p_link": 0.007,
+      "p_local": 0.0001,
+      "qpu_a": "x < 8",
+      "qpu_b": "x >= 8",
+      "total_cx": 3410
+    },
+    "packed_decode_equivalent": true,
+    "raw_single_fault_failures": 0,
+    "raw_single_fault_mechanisms": 14783
+  },
+  "rate_index": 7,
+  "shots": 45000000,
+  "strict_dem_sha256": "e2bc8ff6f1b4211f4dd6b89483c40e645de6eeca6ed84179e0d3fc75ff8a8ec0"
+}

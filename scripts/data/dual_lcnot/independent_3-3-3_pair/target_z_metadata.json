@@ -1,0 +1,489 @@
+{
+  "all_points_have_45000000_shots": true,
+  "architecture": "independent_3-3-3_pair",
+  "boundary_x": 8.5,
+  "circuit_dimensions": {
+    "detectors": 205,
+    "indexed_qubits": 65,
+    "measurements": 258,
+    "observables": 1,
+    "ticks": 69
+  },
+  "clean_circuit": {
+    "path": "target_z.stim",
+    "sha256": "332556f43fbd5f05a7e9aafc01cf3388acefb38e7d98a8be6b901d0958e5a98e"
+  },
+  "confidence_interval_method": "wilson",
+  "crumble_file": "target_z_crumble.html",
+  "decoder": {
+    "enable_correlations_at_compile": false,
+    "enable_correlations_at_decode": false,
+    "name": "standard_pymatching"
+  },
+  "derived_independent_pair_reference": true,
+  "family": "dual_lcnot",
+  "id": "dual_lcnot/independent_3-3-3_pair:target_z",
+  "kind": "uniform",
+  "logical_basis": "Z",
+  "observables": [
+    {
+      "id": 0,
+      "label": "target_z"
+    }
+  ],
+  "p_local": 0.0001,
+  "points": [
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 2125,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "51f3a890f7d06277bb68017203752bfb2b839204ad4ff741cda4bb1940480ec8",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p001.dem",
+        "sha256": "ce6fbdb38a6b8b33458afa1680e2c07f89c0e4925e59ded7809abc1e7a0af932"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p001.stim",
+        "sha256": "c731976857cb013e0d7fe7fd8d778621f00d0c517fa6180e5bb62ca82e29cb22"
+      },
+      "p_link": 0.001,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3525,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "d860ebfcb1e1a4f8ae4ac82c7a69f72f28d578e070056abf98f980f1aa31d823",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p002.dem",
+        "sha256": "3c797cc7a0aa234b422e31ec794cf3e44ccf5505c5147f39c31667699425e006"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p002.stim",
+        "sha256": "cff2f6b46de4ce2d14d9c0b3e81d0985a334a25d8884c2121f3789be18829ed4"
+      },
+      "p_link": 0.002,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 5717,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "69661597cdc9072a17687d5849264a26eb0e81296addac7c9af762f2870cc8d7",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p003.dem",
+        "sha256": "8be98d87c9186ba8b934a7bd0b5419b4fcd88738d384e3b5805584e6e3db806b"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p003.stim",
+        "sha256": "6b2eaa038a34f2b9202dc8814b95c27b63d5b8d9fc52ee65cae26e6e7d0055c8"
+      },
+      "p_link": 0.003,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 8676,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "be45de253e651f7cf84561d070048c5465f32622121aea65bc004210430ac27a",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p004.dem",
+        "sha256": "0b4b4cf3eaeb804d864d9ae37ff201d165055d4b6a25ac518da7d533039e537d"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p004.stim",
+        "sha256": "ee3163c149beeb518649ace552c84ae0c22257ec7a12396ae0e13ce3306125a0"
+      },
+      "p_link": 0.004,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 12047,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "b39df91cebc6a6cd269e1491c284ff586bc746abd68c576d07057f08576e30d6",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p005.dem",
+        "sha256": "d40036c6f137d62fe3b22c69cfad8d9400bb322aaadaffaf4e736a8a05b2148e"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p005.stim",
+        "sha256": "3b79192018b671119446989eefd7e8aa3826f57dc220557e8086b24ea61940f3"
+      },
+      "p_link": 0.005,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 16136,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "022f62a6342c4c9aa6f0dbf3c84b0a230d88e943535f5bd9f63c150d139bf310",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p006.dem",
+        "sha256": "cba6f4edc3d3fd11db1b226fd68aa7a075eff837ce299c92319a880095be4009"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p006.stim",
+        "sha256": "da84e6c618579f148d03385f8e4ba880c28873464e070789d4470b086314846a"
+      },
+      "p_link": 0.006,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 20833,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "c22a9fa172e90857c817a6848e3acba60b0d9eb33f68a041252a99888a0ae94a",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p007.dem",
+        "sha256": "2c2649c8d0a7d4ec6e9ca2eabfebb5ca0fd63ca36b63154ff6b596e1811264d5"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p007.stim",
+        "sha256": "78a751fbaeb80071339dcb495c0e9334487bcc46fe915f282b17c56f7970863b"
+      },
+      "p_link": 0.007,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 25957,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "f7e611c857dff3c91ae73432856e479d2506ae042ea443bc9f673f36a1c192c9",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p008.dem",
+        "sha256": "04027f909d34a2d8cf55a7afd3e6a296c99627a44f4080d2b1664f2059ff7238"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p008.stim",
+        "sha256": "0ad0bc3c7410441f6b0b165d4ee64bd7f57b6e0f494d1266221ffd72b6b54c02"
+      },
+      "p_link": 0.008,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 32438,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "45b80fdb5ee1517e426236d3927b12b5c4915ae8ce352f2ad84be0252ff71261",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p009.dem",
+        "sha256": "9d065f4367cf0f7ed01cd159a01e2dc578cea994a52759e160f6e2e3fc6bbdd7"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p009.stim",
+        "sha256": "03c94909f5ce754aeb15c7e019204b346a3069c55a8f20406357a9befeb65b8b"
+      },
+      "p_link": 0.009,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 38729,
+            "id": 0,
+            "label": "target_z"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "0b57360dba236bbf640ef4a556c4a5676f8165d0e76146146782f994c0a57bd2",
+        "options": {
+          "allow_gauge_detectors": false,
+          "approximate_disjoint_errors": false,
+          "block_decomposition_from_introducing_remnant_edges": false,
+          "decompose_errors": true,
+          "flatten_loops": false,
+          "ignore_decomposition_failures": false
+        },
+        "path": "decoder_dems/target_z_p010.dem",
+        "sha256": "a0c4006dc55ce5dd2bebad59b94cd44053bf06e62910cc70a63dce078bd7f55e"
+      },
+      "noisy_circuit": {
+        "path": "noisy_circuits/target_z_p010.stim",
+        "sha256": "47496cc8c0c5042170d687625545f2a5a8b40ba4525c6add12c45ca36b4da98b"
+      },
+      "p_link": 0.01,
+      "source_preflight": {
+        "boundary": {
+          "bulk_two_qubit_locations": 657,
+          "crossing_two_qubit_locations": 15,
+          "h_locations": 219,
+          "measurement_locations": 258,
+          "r_locations": 249,
+          "rx_locations": 0,
+          "total_two_qubit_locations": 672
+        },
+        "packed_decode_equivalent": true,
+        "raw_single_fault_failures": 0,
+        "raw_single_fault_mechanisms": 2536
+      }
+    }
+  ],
+  "results_file": "target_z_results.csv",
+  "scope": "Single standard 3-3-3 target-Z circuit, sampled at 45M shots per rate. The two-independent-CNOT pair curve is derived from the single-circuit probability q as 2*q-q^2."
+}

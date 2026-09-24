@@ -1,0 +1,142 @@
+{
+  "original_sha256": "cd4774122c99365d5b52dc19f0a287beb72fb1ff5022365280622775cd74a6aa",
+  "original_source_label": "<original-single-project>/results/standard_d9d9d9_control_x_standard_pymatching_45m_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 450,
+        "sha256": "4f158104c27413db9d4d0f695d0e0f1c24a44e0cdfcea65dd9df05c9d8b597b7"
+      },
+      "final_qa.json": {
+        "bytes": 4889,
+        "sha256": "f4f0f7a36c170e0a692ad2bb344c3029ffe6978bd9017d94689c8db9569aef85"
+      },
+      "logical_x_input.stim": {
+        "bytes": 596833,
+        "sha256": "a1e00ab133aa72691359bffc2b009fb7ddc47e0754ac337adccc9c7c85f8bf17"
+      },
+      "progress/p001.json": {
+        "bytes": 15840,
+        "sha256": "297fe0ba0e26561264529413eb3b37990a613fd4566266f3b22721509011aed0"
+      },
+      "progress/p002.json": {
+        "bytes": 15840,
+        "sha256": "1fb756e5afc4830f746d0754c5ebc5f06bcd4a24136c61e13ba72388e2fb5376"
+      },
+      "progress/p003.json": {
+        "bytes": 15840,
+        "sha256": "a15d78e91c278220ab4672181cab8def63eeb6555b334a80a5a20ed64b7fc2f6"
+      },
+      "progress/p004.json": {
+        "bytes": 15840,
+        "sha256": "13f3b5d87c691c413d5372d87b4294a7c6d1ed938a3ff012669590474fec5e20"
+      },
+      "progress/p005.json": {
+        "bytes": 15840,
+        "sha256": "01c72d536344f23816f6fac0fc86a4105c358d1578f25ac46bac7dc7896c1148"
+      },
+      "progress/p006.json": {
+        "bytes": 15840,
+        "sha256": "7b872647aa510d53cf365756a1acfef4a5e7a51027736ea810bcf3ab2e567d49"
+      },
+      "progress/p007.json": {
+        "bytes": 15840,
+        "sha256": "ea541784dee8e3045e8f510cfc0fe96f89dd96045419dc6107d45a36d9dfed88"
+      },
+      "progress/p008.json": {
+        "bytes": 15841,
+        "sha256": "08f1f329ca58ad35613f33abf5240e4eb096c014b16d0d79490a07b3888ce1e5"
+      },
+      "progress/p009.json": {
+        "bytes": 15842,
+        "sha256": "ef32a3d031c94284427d4422e846df8a93fc7c50a26203296f55966882f9540e"
+      },
+      "progress/p010.json": {
+        "bytes": 15839,
+        "sha256": "18255ad2e62e2508894a94cadb94c601a55a00b3451405ff380efb80cb292388"
+      },
+      "run_config.json": {
+        "bytes": 41307,
+        "sha256": "be433550be6a81a71b553d0fc53caafadf91e46c3f31fa0ed7565ab2aea4b9a6"
+      },
+      "standard_d9d9d9_control_x_standard_pymatching_summary.csv": {
+        "bytes": 7285,
+        "sha256": "0ce27a2ed5c4522ac3775df3a4c59027dff0067ebdb7a6704ad39f7103fc9014"
+      },
+      "standard_d9d9d9_control_x_standard_pymatching_summary.json": {
+        "bytes": 15317,
+        "sha256": "5b13175d2d25e5ea40435881ff59499cd4c8164740c8bbbb81974676e4117521"
+      }
+    },
+    "input_pins": {
+      "additional_inputs": [
+        {
+          "bytes": 39464,
+          "path": "<original-single-project>/results/standard_d9d9d9_9999_exact_schedule_tqecd_control_x_sge9_v1/validation_report.json",
+          "sha256": "105e5bda68d4e890a17399cfe19a1af8b364eebea17791c19246d60742336265"
+        },
+        {
+          "bytes": 268809,
+          "path": "<original-single-project>/results/standard_d9d9d9_9999_exact_schedule_tqecd_control_x_sge9_v1/detector_and_logical_rows.json",
+          "sha256": "18779cb87b8c02bd04848e1a4b6501a603613af7c5830205fe189bbcb7fc2004"
+        },
+        {
+          "bytes": 2080,
+          "path": "<original-single-project>/results/standard_d9d9d9_9999_exact_schedule_tqecd_control_x_sge9_v1/manifest.json",
+          "sha256": "31e6707d84d5289d90fa4a07431ef89d932eab3672e3c5bebef7f888e029b4b7"
+        },
+        {
+          "bytes": 44266,
+          "path": "<original-single-project>/scripts/generate_exact_schedule_standard_d7_d9_control_x_tqecd.py",
+          "sha256": "44b52e8d817dab248cbdc1dd7efef24a58532cd0e5f0141acda43464c4eef3f0"
+        }
+      ],
+      "circuit": {
+        "bytes": 596833,
+        "path": "<original-single-project>/results/standard_d9d9d9_9999_exact_schedule_tqecd_control_x_sge9_v1/standard_d9d9d9_9999_exact_schedule_tqecd_control_x.stim",
+        "sha256": "a1e00ab133aa72691359bffc2b009fb7ddc47e0754ac337adccc9c7c85f8bf17"
+      },
+      "job_config": {
+        "bytes": 1427,
+        "path": "<original-single-project>/results/current_schedule_control_x_standard_pymatching_job_configs_v1/standard_d9d9d9_45m_job.json",
+        "sha256": "6bbcceb7ac206fb33838d2cf667b00f4e9deeb76352bc10482af01b811c9ff06"
+      }
+    },
+    "runtime": {
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "scipy": "1.15.3",
+      "stim": "1.15.0"
+    },
+    "schema": "current-schedule-control-x-standard-pymatching-manifest-v1",
+    "scope": {
+      "architecture": "standard_d9d9d9",
+      "decoder": "standard_pymatching",
+      "enable_correlations_at_compile": false,
+      "enable_correlations_at_decode": false,
+      "observable": "L0 = X_C(in) X_T(in) -> X_C(out)",
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "shots_per_rate": 45000000,
+      "total_physical_shots": 450000000,
+      "zero_discards": true
+    },
+    "script": {
+      "path": "<original-single-project>/scripts/run_current_schedule_control_x_standard_pymatching.py",
+      "sha256": "b971bb2a55c4d7469ff283afa94c3989df50feea349184e078bb082143fb8cc4"
+    },
+    "status": "PASS"
+  }
+}

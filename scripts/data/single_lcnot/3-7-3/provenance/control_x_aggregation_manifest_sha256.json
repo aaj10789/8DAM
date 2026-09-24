@@ -1,0 +1,152 @@
+{
+  "original_sha256": "d2e7425eb2c8452658f8964bcf5923f95c9e9731f5cb6881bb9a3ab2726ebd30",
+  "original_source_label": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_topup_30m_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 467,
+        "sha256": "eb6e12313446f5fe0cbf16b3f380d88df63c84c6546e7d7204eecd309f0e6626"
+      },
+      "final_qa.json": {
+        "bytes": 5493,
+        "sha256": "1fbf1460e24a43a02855cde4ba27eb7ae05fb6163e80ff7dc309e3975db31b3f"
+      },
+      "logical_x_input.stim": {
+        "bytes": 57785,
+        "sha256": "cd40bd12c1a96068865a6fb3507c3c68f01b112a42b4f150cb4375b2f1c2a3e1"
+      },
+      "mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_summary.csv": {
+        "bytes": 7636,
+        "sha256": "ef696ba5156c2ee2cbe5fb4c98f6ab5d52e03dcc1a7d628a92ae28b6c1bfac77"
+      },
+      "mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_summary.json": {
+        "bytes": 15708,
+        "sha256": "30e1747b55c65f84e05471c98129260e9ceb76e0ccdada8444797ff5c3d8bbcf"
+      },
+      "progress/p001.json": {
+        "bytes": 5730,
+        "sha256": "3e7a7fcdcba475281d1ec5509c186fd34d959c4a5cba385137e449465879b160"
+      },
+      "progress/p002.json": {
+        "bytes": 5729,
+        "sha256": "95a7cb61f74e9605a1553e6aa619e085a999062d607347a713a7bc73835dfdbc"
+      },
+      "progress/p003.json": {
+        "bytes": 5742,
+        "sha256": "2f38a0078a082b943b142c51b4cbddf9f21ce2659b8e4fdb5d3f937dc750da50"
+      },
+      "progress/p004.json": {
+        "bytes": 5747,
+        "sha256": "c9e8042041e6b41a0edbadf6f350a7111c9de5449d04554401a86cbe4e15c0c6"
+      },
+      "progress/p005.json": {
+        "bytes": 5766,
+        "sha256": "fafb31560e1ed4931a5bea2c44137877c8d47f020c89e6f0c0254be23436f2f9"
+      },
+      "progress/p006.json": {
+        "bytes": 5780,
+        "sha256": "fcedb7a693ba5105468c0ee7d56c2be778cea7643adcdf7f5dc7a804ef6fa2f7"
+      },
+      "progress/p007.json": {
+        "bytes": 5797,
+        "sha256": "f9535118eb0b26b22a7040d63678a439b5b160abe61bd8bb832273a1f6ff085f"
+      },
+      "progress/p008.json": {
+        "bytes": 5822,
+        "sha256": "96c5051426035e22d09feb756850c4cc0eaf435c7a63dff5bedc37fc65fdd862"
+      },
+      "progress/p009.json": {
+        "bytes": 5829,
+        "sha256": "305a125116df4364a44a6706a85af8b24bbe8a6646946a19b19c890b362d62bc"
+      },
+      "progress/p010.json": {
+        "bytes": 5843,
+        "sha256": "4a316794519d8ccb8c9ed39447dba1dd224c0ccfc0ac0ee2866ff29131906dcb"
+      },
+      "run_config.json": {
+        "bytes": 48052,
+        "sha256": "0ba3e452c6669170973611a362e3a13aa321eb8dddaf2db374dbf6d487c8a0f2"
+      }
+    },
+    "input_pins": {
+      "additional_inputs": [
+        {
+          "bytes": 4465,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/validation_report.json",
+          "sha256": "cb399981c1bc8921aa3a56f65061d506f0d61ed68593edf471e912e9d2260e48"
+        },
+        {
+          "bytes": 1659,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/manifest.json",
+          "sha256": "055de1598abde60eaf50cf12dc39aae2bb0be4c17e1704c4f4f8c19663bf8c55"
+        },
+        {
+          "bytes": 21947,
+          "path": "<original-single-project>/scripts/prepare_supplied_mixed_d3_d7_d3_top_bottom_first_control_x_tqecd.py",
+          "sha256": "9ceb45c02fda9e1089c98a69f6eb280b9e892d7ff8ea6d576d1b2431d38be81d"
+        },
+        {
+          "bytes": 57784,
+          "path": "<supplied-circuit>/pasted-text.txt",
+          "sha256": "c582f0746305ef7a397c0d46d5f40a8e4b40dc6b50110de6145172bea28cce0f"
+        },
+        {
+          "bytes": 55976,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/detector_and_logical_rows.json",
+          "sha256": "103b5821922e53a4970a7c86d49556ddf7bd5ccb4da162fc799906c86ea41f7e"
+        },
+        {
+          "bytes": 57785,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/mixed_d3d7d3_top_bottom_first_tqecd_reannotated_control_x.stim",
+          "sha256": "6f73faff5449874e62504d2b807a4de7de5f17aa1e8fcbf5d59cdf7b1d1b2069"
+        }
+      ],
+      "circuit": {
+        "bytes": 57785,
+        "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/mixed_d3d7d3_top_bottom_first_supplied_control_x.stim",
+        "sha256": "cd40bd12c1a96068865a6fb3507c3c68f01b112a42b4f150cb4375b2f1c2a3e1"
+      },
+      "job_config": {
+        "bytes": 1945,
+        "path": "<original-single-project>/results/logical_x_standard_pymatching_30m_topup_job_configs_v1/mixed_d3_d7_d3_top_bottom_first_topup_30m_job.json",
+        "sha256": "de035c5e6cf358a5553ca5de521356ee61d3987d062672b435907562fa2071c9"
+      }
+    },
+    "runtime": {
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "scipy": "1.15.3",
+      "stim": "1.15.0"
+    },
+    "schema": "current-schedule-control-x-standard-pymatching-manifest-v1",
+    "scope": {
+      "architecture": "mixed_d3_d7_d3_top_bottom_first",
+      "decoder": "standard_pymatching",
+      "enable_correlations_at_compile": false,
+      "enable_correlations_at_decode": false,
+      "observable": "L0 = X_C(in) X_T(in) -> X_C(out)",
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "shots_per_rate": 30000000,
+      "total_physical_shots": 300000000,
+      "zero_discards": true
+    },
+    "script": {
+      "path": "<original-single-project>/scripts/run_topup_mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_30m.py",
+      "sha256": "7ac854898b737efc1246c40a14e6c3e6a6502e4231c2c48b3207a446b1398e30"
+    },
+    "status": "PASS"
+  }
+}

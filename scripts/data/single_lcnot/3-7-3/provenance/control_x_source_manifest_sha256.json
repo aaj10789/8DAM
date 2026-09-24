@@ -1,0 +1,152 @@
+{
+  "original_sha256": "bc49f426815b79e82409c107e42c8873443b06fdac17d16498c7ec24b60f84e9",
+  "original_source_label": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_15m_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 467,
+        "sha256": "159d23ecf913c39dbf58618df997988882ba87e1b8e1ad9eb8361af7a453dd50"
+      },
+      "final_qa.json": {
+        "bytes": 5499,
+        "sha256": "dbf1ac0b42581033b73d00bc1a97c478f36ae0b8642d1d32afa6a1fc9f46768d"
+      },
+      "logical_x_input.stim": {
+        "bytes": 57785,
+        "sha256": "cd40bd12c1a96068865a6fb3507c3c68f01b112a42b4f150cb4375b2f1c2a3e1"
+      },
+      "mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_summary.csv": {
+        "bytes": 7663,
+        "sha256": "684abaf773ef67108a9870f1cb6814eea193f821b000feb48a4e19565cf87586"
+      },
+      "mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_summary.json": {
+        "bytes": 15735,
+        "sha256": "1bd2f72e2bd1398daf238aaf3b692e1fca127b45c3431494c1d003af5ea5d9d1"
+      },
+      "progress/p001.json": {
+        "bytes": 4669,
+        "sha256": "fef782dc2534c9262ebbd73a44325d8ad792e2aa7a56f958fd78268cefacc8dc"
+      },
+      "progress/p002.json": {
+        "bytes": 4672,
+        "sha256": "e0cf5979a94792a78fb920d4090d9046b194f33bf0725f6758d90b884e12b1d1"
+      },
+      "progress/p003.json": {
+        "bytes": 4677,
+        "sha256": "8109e13f6823adc649e2817437c4bc6c669a7d2a588cfb7bbb01f0e0aa64a578"
+      },
+      "progress/p004.json": {
+        "bytes": 4675,
+        "sha256": "bcb4cb85e81e6eaff26aede478befb602c6c1ed5f3b37b69ba4e0730da5eb4bd"
+      },
+      "progress/p005.json": {
+        "bytes": 4683,
+        "sha256": "f0434a99a18b373fef34dd3cb0214886819bf9a1384ac2361d320c8a846a049c"
+      },
+      "progress/p006.json": {
+        "bytes": 4689,
+        "sha256": "3d45f01a25e91778828d3d678ac12509f48b846a49531533f60866d8a9ac825f"
+      },
+      "progress/p007.json": {
+        "bytes": 4704,
+        "sha256": "e62717b2424ab6ef8cddaf756b2d5d4cd3fc2fdf044e3f37f94fbcb365252cec"
+      },
+      "progress/p008.json": {
+        "bytes": 4709,
+        "sha256": "137f80b7c2c0cbeaa20d0b18d09e631d36d71bc5b3cb3e3b31acdaf9cf64e034"
+      },
+      "progress/p009.json": {
+        "bytes": 4732,
+        "sha256": "7cf02a7ea3e2f08b16fb33a72ca4c741747384e886d1ee98953d114266b1817b"
+      },
+      "progress/p010.json": {
+        "bytes": 4742,
+        "sha256": "369597b1c9b0ce6c4221c4189e75d7467e96e4f43d7e2eff5af1a32e4c442d06"
+      },
+      "run_config.json": {
+        "bytes": 48024,
+        "sha256": "610403bc58a05be98a1ee482c113e38df719bbba1bd21c30aa222d22b536925c"
+      }
+    },
+    "input_pins": {
+      "additional_inputs": [
+        {
+          "bytes": 4465,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/validation_report.json",
+          "sha256": "cb399981c1bc8921aa3a56f65061d506f0d61ed68593edf471e912e9d2260e48"
+        },
+        {
+          "bytes": 1659,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/manifest.json",
+          "sha256": "055de1598abde60eaf50cf12dc39aae2bb0be4c17e1704c4f4f8c19663bf8c55"
+        },
+        {
+          "bytes": 21947,
+          "path": "<original-single-project>/scripts/prepare_supplied_mixed_d3_d7_d3_top_bottom_first_control_x_tqecd.py",
+          "sha256": "9ceb45c02fda9e1089c98a69f6eb280b9e892d7ff8ea6d576d1b2431d38be81d"
+        },
+        {
+          "bytes": 57784,
+          "path": "<supplied-circuit>/pasted-text.txt",
+          "sha256": "c582f0746305ef7a397c0d46d5f40a8e4b40dc6b50110de6145172bea28cce0f"
+        },
+        {
+          "bytes": 55976,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/detector_and_logical_rows.json",
+          "sha256": "103b5821922e53a4970a7c86d49556ddf7bd5ccb4da162fc799906c86ea41f7e"
+        },
+        {
+          "bytes": 57785,
+          "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/mixed_d3d7d3_top_bottom_first_tqecd_reannotated_control_x.stim",
+          "sha256": "6f73faff5449874e62504d2b807a4de7de5f17aa1e8fcbf5d59cdf7b1d1b2069"
+        }
+      ],
+      "circuit": {
+        "bytes": 57785,
+        "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_supplied_control_x_tqecd_v1/mixed_d3d7d3_top_bottom_first_supplied_control_x.stim",
+        "sha256": "cd40bd12c1a96068865a6fb3507c3c68f01b112a42b4f150cb4375b2f1c2a3e1"
+      },
+      "job_config": {
+        "bytes": 1939,
+        "path": "<original-single-project>/results/mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching_job_config_v1/job.json",
+        "sha256": "dd81206f0f2d7ec1f02dc6d73ff159aaad8771eac6f1a6e1b44c91ff5dc1e2b2"
+      }
+    },
+    "runtime": {
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "scipy": "1.15.3",
+      "stim": "1.15.0"
+    },
+    "schema": "current-schedule-control-x-standard-pymatching-manifest-v1",
+    "scope": {
+      "architecture": "mixed_d3_d7_d3_top_bottom_first",
+      "decoder": "standard_pymatching",
+      "enable_correlations_at_compile": false,
+      "enable_correlations_at_decode": false,
+      "observable": "L0 = X_C(in) X_T(in) -> X_C(out)",
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "shots_per_rate": 15000000,
+      "total_physical_shots": 150000000,
+      "zero_discards": true
+    },
+    "script": {
+      "path": "<original-single-project>/scripts/run_supplied_mixed_d3_d7_d3_top_bottom_first_control_x_standard_pymatching.py",
+      "sha256": "fd8d34f4d47baeadcad9541b0bc0b6f39df68ad1064784f3ece38f5693e79147"
+    },
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "added_shots": 30000000,
+  "architecture": "d3",
+  "circuit_path": "../../noisy_circuits/p001.stim",
+  "complete": true,
+  "completed_chunks": 30,
+  "dem_path": "../../decoder_dems/p001.dem",
+  "errors": {
+    "target": 2125
+  },
+  "native_dem_sha256": "51f3a890f7d06277bb68017203752bfb2b839204ad4ff741cda4bb1940480ec8",
+  "new_errors": {
+    "target": 1468
+  },
+  "noisy_circuit_sha256": "c731976857cb013e0d7fe7fd8d778621f00d0c517fa6180e5bb62ca82e29cb22",
+  "original_errors": {
+    "target": 657
+  },
+  "original_metadata": {
+    "architecture": "standard_d3",
+    "boundary_x": "8.5",
+    "bulk_p2": "0.0001",
+    "bulk_two_qubit_locations": "657",
+    "circuit_sha256": "332556f43fbd5f05a7e9aafc01cf3388acefb38e7d98a8be6b901d0958e5a98e",
+    "clopper_pearson_95_high": "4.72810100199672e-05",
+    "clopper_pearson_95_low": "4.051446101959344e-05",
+    "crossing_two_qubit_locations": "15",
+    "decoder": "standard_pymatching",
+    "dem_model": "strict_decomposed",
+    "discards": "0",
+    "display_label": "Standard D3\u2013D3\u2013D3 \u00b7 target-Z",
+    "enable_correlations_at_compile": "False",
+    "enable_correlations_at_decode": "False",
+    "ler": "4.38e-05",
+    "logical_errors": "657",
+    "metric": "decoded target-Z logical-flow failure probability per CNOT shot",
+    "native_dem_sha256": "51f3a890f7d06277bb68017203752bfb2b839204ad4ff741cda4bb1940480ec8",
+    "noisy_circuit_sha256": "c731976857cb013e0d7fe7fd8d778621f00d0c517fa6180e5bb62ca82e29cb22",
+    "observable": "L0 = Z_C(mid,in) Z_T(mid,in) -> Z_T(mid,out)",
+    "p1": "0.0001",
+    "p_link": "0.001",
+    "retained_shots": "15000000",
+    "sampling_policy": "fresh_paired_same_shot_fixed_15000000",
+    "shots": "15000000",
+    "strict_dem_sha256": "ce6fbdb38a6b8b33458afa1680e2c07f89c0e4925e59ded7809abc1e7a0af932"
+  },
+  "original_shots": 15000000,
+  "p_link": 0.001,
+  "preflight": {
+    "boundary": {
+      "bulk_two_qubit_locations": 657,
+      "crossing_two_qubit_locations": 15,
+      "h_locations": 219,
+      "measurement_locations": 258,
+      "r_locations": 249,
+      "rx_locations": 0,
+      "total_two_qubit_locations": 672
+    },
+    "packed_decode_equivalent": true,
+    "raw_single_fault_failures": 0,
+    "raw_single_fault_mechanisms": 2536
+  },
+  "rate_index": 1,
+  "shots": 45000000,
+  "strict_dem_sha256": "ce6fbdb38a6b8b33458afa1680e2c07f89c0e4925e59ded7809abc1e7a0af932"
+}

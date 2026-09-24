@@ -1,0 +1,279 @@
+{
+  "all16_inputs_correct_target_and_control_Z_relations": true,
+  "input_cases": [
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "observables": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "observables": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "observables": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "observables": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "observables": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "observables": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "observables": [
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "observables": [
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "observables": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "observables": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "observables": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "observables": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "observables": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "observables": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "fired_detectors": [],
+      "input_bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "observables": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "fired_detectors": [
+        975
+      ],
+      "input_bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "observables": [
+        false,
+        false,
+        true,
+        true
+      ]
+    }
+  ],
+  "input_order": [
+    "C1",
+    "T1",
+    "C2",
+    "T2"
+  ],
+  "known_upper_control_input_check_detectors": [
+    975
+  ],
+  "no_detector_dependence_on_other_three_logical_inputs": true,
+  "output_order": [
+    "bottom target relation",
+    "top target relation",
+    "upper control",
+    "lower control"
+  ],
+  "shots_per_input": 100,
+  "source": "source-archive/circuit-analysis/link_asymmetry_fix/tqecd/plus2_tqecd_rebased.stim"
+}

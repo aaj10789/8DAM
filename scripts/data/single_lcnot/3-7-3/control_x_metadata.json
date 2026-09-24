@@ -1,0 +1,321 @@
+{
+  "all_points_have_45000000_shots": true,
+  "architecture": "3-7-3",
+  "boundary_x": 8.0,
+  "circuit_dimensions": {
+    "detectors": 688,
+    "indexed_qubits": 153,
+    "measurements": 809,
+    "observables": 1,
+    "ticks": 109
+  },
+  "clean_circuit": {
+    "path": "control_x.stim",
+    "sha256": "cd40bd12c1a96068865a6fb3507c3c68f01b112a42b4f150cb4375b2f1c2a3e1"
+  },
+  "confidence_interval_method": "clopper_pearson",
+  "crumble_file": "control_x_crumble.html",
+  "decoder": {
+    "enable_correlations_at_compile": false,
+    "enable_correlations_at_decode": false,
+    "name": "standard_pymatching"
+  },
+  "detector_provenance": "TQECD-derived with circuit-specific validated completion/closure checks; final annotations preserved.",
+  "family": "single_lcnot",
+  "id": "single_lcnot/3-7-3:control_x",
+  "kind": "mixed",
+  "logical_basis": "X",
+  "observable_flow": "L0 = X_C(in) X_T(in) -> X_C(out)",
+  "observables": [
+    {
+      "id": 0,
+      "label": "control_x"
+    }
+  ],
+  "p_local": 0.0001,
+  "points": [
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 2689,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "0c84cafaba80dae54337ae07bc3703e9edaeae8bcd4aac466a78cf0a892abcb1",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "68c155af3e53bc59713aaa9ee5954c137695585f4edeb04b68d0f843d9a23047"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p001.stim",
+        "sha256": "48b542f2a529908f7d51550b93215cd49d399ecb2a1245d8256758159b4c9267"
+      },
+      "p_link": 0.001
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 2728,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "467860b8826ed09578f6fc4eab10689c5335504cad894afb74d905236301f577",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "7ffacd01117a589c616f23884fb02508be75c3d1a7601edf59c3565366c6c42f"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p002.stim",
+        "sha256": "a66b887902973d4d2b264c60adaf4875ad0f911b8e87098d4d0327231f2666c9"
+      },
+      "p_link": 0.002
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 2928,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "11622c7e237dff050ce3c5c52eb0b545dfcf8eb887d338d74b2baef18a552c4b",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "32a5fa1a82e9074faf6092018f277110cca8be5a67a9cfb6820079d7441a3eb4"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p003.stim",
+        "sha256": "bb0867ee25bfb47d6eea63b6e3f8927a4fea6e5e5ba9b22c234554bc77ec1d0a"
+      },
+      "p_link": 0.003
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3000,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "02d7a5daf2e561c09ea8d43e0d9e6907e2b94ca2f7c580ce11db421fb7126a1c",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "13114aa1e20aacdb1ecd163952ab152dabe0b6c2fb95c494e3e2294ef8247d44"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p004.stim",
+        "sha256": "1b2fd28e3c5603f9ed91e640e9e9a605b111e51b5588c4a9c83f450ae3fe8ddc"
+      },
+      "p_link": 0.004
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3236,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "a2fad314fd04f21c1ca67a2a017731853168b3a14811e61e424ba276d98b6aec",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "1ab433a9e4f9ae794ee4c058e0db2d7d56cc721f5fe5101dc6f8288cd188846c"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p005.stim",
+        "sha256": "78517689f30178999a4a6f3c5c17fbf18c0dc14ced7aa597e074433cb2c81549"
+      },
+      "p_link": 0.005
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3365,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "6d59668c52965f594b42dad02bd8bd8c7b41e49eaf8a0b7202545e8102ad56bf",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "55b1354a8a7e9f5640cbd8ed11f6aa2ba931972be629a7c70394e1f21a2c3f80"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p006.stim",
+        "sha256": "958244926b22141ba375d3f12aa486fda0d424a16246cb52eb11ddfe6a45afa6"
+      },
+      "p_link": 0.006
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3598,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "a857e76029aca5461dd457e83e9e7c448bef95aa3f2fcdbb364f0209545f4dc2",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "9d8f163aae1cce2682076a1f69c83866a5ec35f18e34f6dde53379a7524342f3"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p007.stim",
+        "sha256": "a25971a78ab2d4fd51cac157c874ff05b344df6dfbfc2dfc398aee1d55a18aad"
+      },
+      "p_link": 0.007
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 3793,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "6582c8ea6a154ff0cb820c777b93eb3fa6c536c227962754a72b32ff832fdb36",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "41b92fbf830094a8abc5f1a82831a2e4206b6d57338d944371e719827ff43d6d"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p008.stim",
+        "sha256": "119de4878318fffc768f5ac93d0793fb9ba9267252cfdcda903db4203af2537a"
+      },
+      "p_link": 0.008
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 4090,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "b4677c6dbd804d3004d316a5406a1cfc865ede428fc6377205adf39a5556b3d9",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "3e2eb16c24c2b057bf8ecfd281216a0483cae70c5bc396d4a137ae5cc225f2b3"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p009.stim",
+        "sha256": "038023dbfcccfc6a409780d9c5a11f70df6be78187921bb026947bbb9ff2f361"
+      },
+      "p_link": 0.009
+    },
+    {
+      "counts": {
+        "discards": 0,
+        "observables": [
+          {
+            "errors": 4263,
+            "id": 0,
+            "label": "control_x"
+          }
+        ],
+        "shots": 45000000
+      },
+      "dem": {
+        "native_sha256": "f689a6aad56b0d4f2f9dd59799d88b6596681a05bd276c993aa3dcaa59e2911c",
+        "options": {
+          "approximate_disjoint_errors": false,
+          "decompose_errors": true,
+          "ignore_decomposition_failures": false
+        },
+        "sha256": "c565ed217271cf61b6a2c06b6d211bc1fd5b8ad1ca498f2e4a083e9dab6d137d"
+      },
+      "noise_counts": null,
+      "noisy_circuit": {
+        "path": "noisy_circuits/control_x_p010.stim",
+        "sha256": "eaee8f1fe57ae8c3404c2ec6181fda6629a7a6908920b83fbe4c326220ee8d59"
+      },
+      "p_link": 0.01
+    }
+  ],
+  "recorded_shortest_graphlike_error": 3,
+  "results_file": "control_x_results.csv",
+  "scope": "control-X decoded logical-observable readout failure per complete single-CNOT circuit; not total gate failure."
+}

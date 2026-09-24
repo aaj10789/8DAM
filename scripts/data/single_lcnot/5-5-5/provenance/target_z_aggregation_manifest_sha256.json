@@ -1,0 +1,136 @@
+{
+  "original_sha256": "f5bb0538d57c0bc9e959623cc03ba4e0fe1f3236278349af0406d20bc09c3abd",
+  "original_source_label": "<original-single-project>/results/standard_d5d5d5_target_z_standard_pymatching_45m_reuse15m_plus_independent30m_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 469,
+        "sha256": "a77c19476c198fc9fd6ca9d407188be51dcee30fadb97f26332d5eafac02b05c"
+      },
+      "count_ledger.json": {
+        "bytes": 3735,
+        "sha256": "d20fd4128a2794d55b24195024b401ee91245168d4d74c9514d223c92374edcf"
+      },
+      "final_qa.json": {
+        "bytes": 15706,
+        "sha256": "c48828d6018734fdeb5eba96c85156f6245d65d534d3c8160d39286016485ed1"
+      },
+      "logical_z_input.stim": {
+        "bytes": 100079,
+        "sha256": "55e6efe953d024637e09a7898c085e4157404bd8f65a9f0741692d8eca807193"
+      },
+      "progress/p001.json": {
+        "bytes": 5347,
+        "sha256": "2986a184f091157a97d156ec4b34c0674d6ae75aa80fa712bf16716d9d22b994"
+      },
+      "progress/p002.json": {
+        "bytes": 5347,
+        "sha256": "954eea9c48dd7136a3c1427403392ab5c6b90dd1d6dde1dd4b6603c731c9821f"
+      },
+      "progress/p003.json": {
+        "bytes": 5348,
+        "sha256": "9ae215a69369e398a8e1058d4dd2cf64b0d56d60c744307e12e8fe4acaec72e9"
+      },
+      "progress/p004.json": {
+        "bytes": 5349,
+        "sha256": "66eb16c16a268ac583a73ab219199b4f81767b32ab897785bc15d018a42d9026"
+      },
+      "progress/p005.json": {
+        "bytes": 5349,
+        "sha256": "d0af0d262516f0457d274baf110923c7bec1e19f31162d9c8b1008465079c55c"
+      },
+      "progress/p006.json": {
+        "bytes": 5349,
+        "sha256": "cc547c5fbe15d63e09937d89ba1b083197f0de25aca7ac2db993b5ed65ceff3c"
+      },
+      "progress/p007.json": {
+        "bytes": 5350,
+        "sha256": "948348406ce5c6d1ac92b06790a2efec08accef305f3c4d60c252660461af5dd"
+      },
+      "progress/p008.json": {
+        "bytes": 5355,
+        "sha256": "17540c0d6fc68f6fe2a9092a58a459932eb9f17464606a892f7dea89c14933b7"
+      },
+      "progress/p009.json": {
+        "bytes": 5404,
+        "sha256": "969c8012747c9cc64d59710b67e9584e87e54bc26fdce5842ef46224542b8477"
+      },
+      "progress/p010.json": {
+        "bytes": 5493,
+        "sha256": "4b684a50a07e693829cc2cadc53eaa1b93dee8feaf0b82ff38f95cd04f093537"
+      },
+      "run_config.json": {
+        "bytes": 45606,
+        "sha256": "ff2cef0a210967fb6f3e24f3a5e3fcbc020ed4548ecfb42995d11403e770211a"
+      },
+      "source_provenance.json": {
+        "bytes": 16792,
+        "sha256": "adaebd0309c2a64d39295245a66a34693d5e1d704728f3a0bccae235af712c4c"
+      },
+      "standard_d5d5d5_target_z_standard_pymatching_combined_45m.csv": {
+        "bytes": 7222,
+        "sha256": "8b58c5246acf2310776d4613f2d8c8f999e1c7d8bf585504e3e132d5d8ee7b8c"
+      },
+      "standard_d5d5d5_target_z_standard_pymatching_combined_45m.json": {
+        "bytes": 14428,
+        "sha256": "d7e17fbd1daa3497fe372e213b611decba69f3e0eaccd2727dae4c8fd6cdfd35"
+      },
+      "standard_d5d5d5_target_z_standard_pymatching_independent_30m_topup.csv": {
+        "bytes": 6839,
+        "sha256": "65171ab9a3ae5001243aa744d4d7bb0de100ae75c3d1b82bc9eb7d015a3dea62"
+      },
+      "standard_d5d5d5_target_z_standard_pymatching_independent_30m_topup.json": {
+        "bytes": 14054,
+        "sha256": "70c73a29b25372a78df2d9878bf2d927c703b7f3456fedabe28133c4fddecbad"
+      }
+    },
+    "job": {
+      "bytes": 282,
+      "path": "<original-single-project>/results/target_z_standard_pymatching_independent_30m_topup_jobs_v1/standard_d5d5d5.json",
+      "sha256": "421fd7f5752638cebdfd5228f09f759930dbcf4683074d2bee69932e9528a65c"
+    },
+    "runtime": {
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "scipy": "1.15.3",
+      "stim": "1.15.0"
+    },
+    "schema": "target-z-standard-pymatching-independent-30m-topup-manifest-v1",
+    "scope": {
+      "architecture": "standard_d5d5d5",
+      "combined_decoder_trials": 450000000,
+      "combined_shots_per_rate": 45000000,
+      "decoder": "standard_pymatching",
+      "enable_correlations_at_compile": false,
+      "enable_correlations_at_decode": false,
+      "imported_shots_per_rate": 15000000,
+      "new_physical_shots": 300000000,
+      "new_shots_per_rate": 30000000,
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "zero_discards": true
+    },
+    "script": {
+      "bytes": 60211,
+      "path": "<original-single-project>/scripts/run_target_z_standard_pymatching_independent_30m_topup_reuse15m.py",
+      "sha256": "7b02d9f9e22a6e4c409f75720402c1dffeab6b146228d9a91602944abd8c1793"
+    },
+    "source": {
+      "detector_manifest_sha256": "02e284fefc81c27a234d5937e63f3841d956a71224c6c184687d21d51886c77f",
+      "source_manifest_sha256": "20e44a985917949177fdf1fcf1f431ce1d6568607c9481d84abbb3fe32424d06"
+    },
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "original_sha256": "a46bc0fe72f3023b9601fb8195255515114560c5f83f267564713fb5f1ccbfd5",
+  "original_source_label": "<original-single-project>/results/mixed_d3_d7_d3_same_tick_tqecd_detectors_sge3_v2/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 1227,
+        "sha256": "21ef747b703a87ff88e90f96f18a80014ab1537e66b217fd1385c5c58f99e760"
+      },
+      "mixed_original_same_tick_tqecd_full_detslice_with_ops.svg": {
+        "bytes": 6579419,
+        "sha256": "4bc3d3c56661f3a8a313851f850812076ae4e494732b9b52db9f4b437b8d96fe"
+      },
+      "mixed_original_same_tick_tqecd_target_z.stim": {
+        "bytes": 57665,
+        "sha256": "e9910a84aa9383fa0f50f2c8700662fd15a81f7dfaf718e16d59175fcdd52491"
+      },
+      "mixed_original_same_tick_tqecd_tick_081.svg": {
+        "bytes": 52478,
+        "sha256": "add5b24df1c8031de8c78413f42bcb8bf67734aff8f8150874e3aa50b2e22816"
+      },
+      "mixed_original_same_tick_tqecd_tick_090.svg": {
+        "bytes": 47532,
+        "sha256": "f5dc01953b48bb29f292b0c8b9860891d75c998c9375c48fa49b5f81798e500d"
+      },
+      "mixed_original_same_tick_tqecd_tick_091.svg": {
+        "bytes": 23448,
+        "sha256": "0bfaede296fcefd8bef6ad9a9720aa1966d9b84eddf68c2ead4d354bec61c224"
+      },
+      "mixed_original_same_tick_tqecd_tick_100.svg": {
+        "bytes": 23617,
+        "sha256": "5009b33dfc9746166ea9a7be7b841d18c95191dc7324fde0a0d166de0b95764a"
+      },
+      "mixed_original_same_tick_tqecd_tick_109.svg": {
+        "bytes": 21110,
+        "sha256": "23d0eedde4d7db65706e08dec57ab4dcbad2d1804d263b3a766c68f8c7b4fd14"
+      },
+      "mixed_original_same_tick_tqecd_tick_110.svg": {
+        "bytes": 18978,
+        "sha256": "4caee08e644c1fd47471095a46f63173b2cbaff9ec63a9bb942b155437c21e9e"
+      },
+      "mixed_rotated_same_tick_tqecd_full_detslice_with_ops.svg": {
+        "bytes": 6169459,
+        "sha256": "45b3c443f9c1eefc5740b38fd2887e0c60a690f4ad82088fc94a4243bf6e1e62"
+      },
+      "mixed_rotated_same_tick_tqecd_target_z.stim": {
+        "bytes": 55195,
+        "sha256": "ec122b729c583820b13a18db02154c97b9ad22fdd20a67347784a29fa555a86c"
+      },
+      "mixed_rotated_same_tick_tqecd_tick_081.svg": {
+        "bytes": 44655,
+        "sha256": "3b7f8b19980b771a3585f04a03d813052032c5363117282a0a39fddbe344e423"
+      },
+      "mixed_rotated_same_tick_tqecd_tick_090.svg": {
+        "bytes": 43164,
+        "sha256": "92f7659c9b400f4c4a7afc96de2528d1e70d2af1f7c00dd30c61f3d5374a36ab"
+      },
+      "mixed_rotated_same_tick_tqecd_tick_091.svg": {
+        "bytes": 20780,
+        "sha256": "cf03aefaa4250f87379ab81c29bb9eb08dc1a1af991eb925bf3aaa1f88f84fa9"
+      },
+      "mixed_rotated_same_tick_tqecd_tick_100.svg": {
+        "bytes": 20949,
+        "sha256": "e5fab82cac47a39689be637560df16c21e2737feb7801a779c2585c0faa1dcca"
+      },
+      "mixed_rotated_same_tick_tqecd_tick_109.svg": {
+        "bytes": 18951,
+        "sha256": "5236820922bf0931ec6d1dc5be9f8fcd0e152c75f7866baf0dbc55b11a465052"
+      },
+      "mixed_rotated_same_tick_tqecd_tick_110.svg": {
+        "bytes": 17359,
+        "sha256": "03f175ff24494afe76b060b39d2a058bdb66cab3985541ca42894213472cd727"
+      },
+      "validation_report.json": {
+        "bytes": 50715,
+        "sha256": "f4bd4a2e800f36d13fb9def453746dec39e7a4ec484e99989cf5c99d07783ea7"
+      }
+    },
+    "generator": {
+      "path": "<original-single-project>/scripts/generate_mixed_d3_d7_d3_same_tick_tqecd_svgs_sge3.py",
+      "sha256": "4cd6cb143f7f0bc36788a5b998a158dc118ee060cd6742408170162c35875f26"
+    },
+    "output_directory": "<original-single-project>/results/mixed_d3_d7_d3_same_tick_tqecd_detectors_sge3_v2",
+    "schema": "mixed-d3-d7-d3-same-tick-tqecd-sge3-manifest-v2",
+    "scope": {
+      "all_ten_rates_circuit_sge": 3,
+      "all_ten_rates_native_graphlike_submodel_sge_ignoring_hyperedges": 3,
+      "all_ten_rates_strict_decomposed_dem_sge": 3,
+      "detectors": 688,
+      "measurements": 809,
+      "native_undecomposed_dem_contains_hyperedges": true,
+      "observables": 1,
+      "sampling_performed": false,
+      "ticks": 110
+    },
+    "status": "PASS",
+    "tqecd": {
+      "git_commit": "6a2b0882a4f72545cac943ed66aece55d9d65747",
+      "version": "0.1.2"
+    }
+  }
+}

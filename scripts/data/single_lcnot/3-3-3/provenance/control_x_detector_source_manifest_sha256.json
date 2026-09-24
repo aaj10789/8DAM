@@ -1,0 +1,62 @@
+{
+  "original_sha256": "6febbdf7cdd2618d47b193a03c4bc227f80ade50876240b041032805167a739b",
+  "original_source_label": "<original-single-project>/results/standard_d3d3d3_terminal_closure_tqecd_control_x_sge3_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "detector_and_logical_rows.json": {
+        "bytes": 8563,
+        "path": "<original-single-project>/results/standard_d3d3d3_terminal_closure_tqecd_control_x_sge3_v1/detector_and_logical_rows.json",
+        "sha256": "68ef3034584132234d4890f56d682480872d9a5dcac34594a1ef6abf1ce73496"
+      },
+      "standard_d3d3d3_terminal_closure_tqecd_control_x.stim": {
+        "bytes": 16500,
+        "path": "<original-single-project>/results/standard_d3d3d3_terminal_closure_tqecd_control_x_sge3_v1/standard_d3d3d3_terminal_closure_tqecd_control_x.stim",
+        "sha256": "7688caa263d40804f61c47fc5f574e34d757304e832dc44a67761d7a612f435b"
+      },
+      "validation_report.json": {
+        "bytes": 32744,
+        "path": "<original-single-project>/results/standard_d3d3d3_terminal_closure_tqecd_control_x_sge3_v1/validation_report.json",
+        "sha256": "c236153cecd3268472e57a3fdfc21095c79a0a00055d204346c645af4b07b801"
+      }
+    },
+    "generator": {
+      "path": "<original-single-project>/scripts/generate_exact_schedule_standard_d3_control_x_tqecd.py",
+      "sha256": "222b52c3304a1b2c6353799f78a92c9256743922d8f98619de51c69f0696080f"
+    },
+    "key_results": {
+      "SGE_at_all_ten_rates": 3,
+      "boundary_x": 8.5,
+      "bulk_CX_locations": 657,
+      "crossing_CX_locations": 15,
+      "direct_TQECD_detectors": 204,
+      "endpoint_native_complete_instruction_misdecodes": [
+        0,
+        0
+      ],
+      "endpoint_strict_complete_instruction_misdecodes": [
+        0,
+        0
+      ],
+      "endpoint_strict_component_misdecodes": [
+        0,
+        0
+      ],
+      "final_detectors": 209,
+      "observable": "L0 = X_C(in) X_T(in) -> X_C(out)",
+      "positive_signed_completion_rows_added": 5,
+      "rank_D_plus_both_X_logicals": 211,
+      "stock_PyMatching_correlations_disabled": true,
+      "ticks": 70
+    },
+    "output_directory": "<original-single-project>/results/standard_d3d3d3_terminal_closure_tqecd_control_x_sge3_v1",
+    "sampling_performed": false,
+    "schema": "standard-d3d3d3-terminal-closure-tqecd-control-x-sge3-v1",
+    "source": {
+      "bytes": 16242,
+      "path": "<original-single-project>/results/standard_d3d3d3_completed_tqecd_detectors_sge3_v1/standard_d3d3d3_completed_tqecd_target_z.stim",
+      "sha256": "332556f43fbd5f05a7e9aafc01cf3388acefb38e7d98a8be6b901d0958e5a98e"
+    },
+    "status": "PASS"
+  }
+}

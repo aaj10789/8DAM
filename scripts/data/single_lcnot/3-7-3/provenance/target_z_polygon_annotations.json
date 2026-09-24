@@ -1,0 +1,234 @@
+{
+  "id": "single_lcnot/3-7-3:target_z",
+  "clean_sha256": "e9910a84aa9383fa0f50f2c8700662fd15a81f7dfaf718e16d59175fcdd52491",
+  "annotated_sha256": "421d481eb709e4cbcd84ffd1dde515d6a2bed5d39c77037922ee5bf823135e50",
+  "polygon_count": 732,
+  "polygon_frame_ticks": [
+    0,
+    11,
+    20,
+    29,
+    38,
+    47,
+    56,
+    65,
+    74,
+    83,
+    93,
+    102
+  ],
+  "source_file": "generate_current_mixed_d5_d11_d5_middle_target_z.py",
+  "source_sha256": "3d65d374a3ee7f11e03cadd6179036f9b97a8c947c12324cdd4f32acf6edf44f",
+  "method": "Geometry-only local footprints from the original mixed-circuit generator, matched independently to every archived syndrome round via all four ordered CNOT layers, opening/closing check Hadamards, and reset/measurement-site coverage. Red and blue distinguish nominal X/Z traveling-frame roles, not the support of a particular executed measurement or detector. Single-vertex sites have no filled polygon and are omitted; no quantum operation or detector is changed.",
+  "validation": {
+    "stim_circuit_equal": true,
+    "all_round_program_signatures_match": true
+  },
+  "round_ledger": [
+    {
+      "display_tick": 0,
+      "reset_tick": 2,
+      "measurement_tick": 9,
+      "stage": "standalone",
+      "traveling_frame": 1,
+      "polygon_count": 64,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 11,
+      "reset_tick": 11,
+      "measurement_tick": 18,
+      "stage": "standalone",
+      "traveling_frame": 0,
+      "polygon_count": 64,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 20,
+      "reset_tick": 20,
+      "measurement_tick": 27,
+      "stage": "MZZ",
+      "traveling_frame": 1,
+      "polygon_count": 71,
+      "omitted_single_vertex_sites": [
+        [
+          4.5,
+          10.5
+        ]
+      ],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 29,
+      "reset_tick": 29,
+      "measurement_tick": 36,
+      "stage": "MZZ",
+      "traveling_frame": 0,
+      "polygon_count": 71,
+      "omitted_single_vertex_sites": [
+        [
+          4.5,
+          10.5
+        ]
+      ],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 38,
+      "reset_tick": 38,
+      "measurement_tick": 45,
+      "stage": "MZZ",
+      "traveling_frame": 1,
+      "polygon_count": 71,
+      "omitted_single_vertex_sites": [
+        [
+          4.5,
+          10.5
+        ]
+      ],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 47,
+      "reset_tick": 47,
+      "measurement_tick": 54,
+      "stage": "MZZ",
+      "traveling_frame": 0,
+      "polygon_count": 71,
+      "omitted_single_vertex_sites": [
+        [
+          4.5,
+          10.5
+        ]
+      ],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 56,
+      "reset_tick": 56,
+      "measurement_tick": 63,
+      "stage": "MXX",
+      "traveling_frame": 1,
+      "polygon_count": 72,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 65,
+      "reset_tick": 65,
+      "measurement_tick": 72,
+      "stage": "MXX",
+      "traveling_frame": 0,
+      "polygon_count": 72,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 74,
+      "reset_tick": 74,
+      "measurement_tick": 81,
+      "stage": "MXX",
+      "traveling_frame": 1,
+      "polygon_count": 72,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 83,
+      "reset_tick": 83,
+      "measurement_tick": 90,
+      "stage": "MXX",
+      "traveling_frame": 0,
+      "polygon_count": 72,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 93,
+      "reset_tick": 93,
+      "measurement_tick": 100,
+      "stage": "final_separate",
+      "traveling_frame": 1,
+      "polygon_count": 16,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    },
+    {
+      "display_tick": 102,
+      "reset_tick": 102,
+      "measurement_tick": 109,
+      "stage": "final_separate",
+      "traveling_frame": 0,
+      "polygon_count": 16,
+      "omitted_single_vertex_sites": [],
+      "checks": {
+        "all_four_ordered_CX_layers_match_geometry_generator": true,
+        "opening_H_matches": true,
+        "closing_H_matches": true,
+        "program_check_sites_reset_and_measured": true
+      }
+    }
+  ],
+  "visualization_only": true,
+  "no_new_detector_annotations": true,
+  "all_stim_operations_and_annotations_preserved": true,
+  "simulation_reference": "../../../../../single_lcnot/3-7-3/target_z.stim",
+  "visualization_file": "../../../../../single_lcnot/3-7-3/target_z_crumble.stim"
+}

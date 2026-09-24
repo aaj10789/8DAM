@@ -1,0 +1,21 @@
+{
+  "source_filename": "control_x_crumble.stim",
+  "source_sha256": "390aa9b498bfe54430c11af8607c8053586a7ac916f5c472bb73b4e7d57d257e",
+  "source_bytes": 87055,
+  "stim_version": "1.15.0",
+  "qubits": 153,
+  "measurements": 809,
+  "detectors": 688,
+  "observables": 1,
+  "ticks": 109,
+  "polygon_annotations": 732,
+  "crumble_url_characters": 71486,
+  "crumble_url_sha256": "49399a9223c3b2cabc91061b5f4fde8ebbc75899630ea8e573bb3c6f729e305e",
+  "all_detectors_included": true,
+  "exact_circuit_url_roundtrip": true,
+  "annotation_tick_roundtrip": true,
+  "viewer_requires_internet": true,
+  "html_behavior": "automatic redirect to official Crumble; no custom viewer",
+  "reference_sha256": "cd40bd12c1a96068865a6fb3507c3c68f01b112a42b4f150cb4375b2f1c2a3e1",
+  "exact_simulation_circuit_equality": true
+}

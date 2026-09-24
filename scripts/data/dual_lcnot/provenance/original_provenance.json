@@ -1,0 +1,64 @@
+{
+  "architectures": {
+    "dual": {
+      "boundary_x": 8,
+      "crossing_cx": 70,
+      "cx": 3410,
+      "detectors": 976,
+      "qubits": 199,
+      "ticks": 128
+    },
+    "single_standard_d3": {
+      "boundary_x": 8.5,
+      "crossing_cx": 15,
+      "cx": 672,
+      "detectors": 205,
+      "qubits": 65,
+      "ticks": 69
+    },
+    "two_standard_d3": "Two independent copies; 1344 total CX and 30 crossing CX. This is not a resource-normalized comparison."
+  },
+  "archived_correlated_rows": 50,
+  "ci_method": "Pointwise 95% Wilson; standard pair uses monotone-transformed endpoints. Original standard source Clopper-Pearson intervals retained in source_data but not used in this figure.",
+  "comparison_csv_sha256": "ff45db0e72baeaf368977dced98a0f0291800fc3db633de92fe3c6d78b9a23a7",
+  "correlated_data_status": "Retained in CSV for transparency but not plotted. The saved standard-d3 correlation-aware decoder miscorrects 15 of 2536 raw single-fault mechanisms at each of the ten noise probabilities; see reference_audit.json.",
+  "d3_source": {
+    "path": "source-archive/ANL/05_Code_Scripts/results/tqecd_mixed_d5d5d5_with_completed_d3d3d3_target_z_paired_decoders_v1/standard_d3d3d3_completed_tqecd_paired_decoders_summary.csv",
+    "sha256": "d2c13db2d2d725d6cf6548cf48bf0d59dd4da4dc160146cfff3c15ad3b701b29",
+    "shots_per_point": 15000000
+  },
+  "dual_pair_estimator": "direct same-shot either-target failure count",
+  "dual_source": {
+    "path": "source-archive/circuit-analysis/link_asymmetry_fix/results.csv",
+    "sha256": "b4a99f6ae2023a9279a9c6f7cd05ca23045bc0ec24856459cb67e24b98814d64",
+    "shots_per_point": 2000000
+  },
+  "figure_decoder_comparison": "standard-to-standard only; no cross-decoder comparison",
+  "metric": "decoded target-Z readout failure per complete experiment",
+  "new_monte_carlo_shots_for_this_figure": 0,
+  "primary_decoder": "standard PyMatching for both architectures; both pass all checked raw single-fault decoder tests",
+  "primary_figure_rows": 50,
+  "primary_figure_series": [
+    "dual_top",
+    "dual_bottom",
+    "dual_either",
+    "single_d3",
+    "two_independent_d3"
+  ],
+  "rates": [
+    0.001,
+    0.002,
+    0.003,
+    0.004,
+    0.005,
+    0.006,
+    0.007,
+    0.008,
+    0.009,
+    0.01
+  ],
+  "scope": "Target-Z readout comparison of the shared-ancilla dual-LCNOT simulation and the two-independent-LCNOT reference, with circuits initialized in the logical zero state.",
+  "standard_pair_assumption": "Two identical independent standard-d3 executions, with no shared noise or hardware faults.",
+  "standard_pair_estimator": "2*q-q^2, with q the measured single standard-d3 target-Z LER",
+  "standard_pair_not_a_direct_sample_count": true
+}

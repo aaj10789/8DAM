@@ -1,0 +1,701 @@
+{
+  "id": "dual_lcnot/shared_ancilla_distance3:target_z",
+  "relative_dir": "dual_lcnot/shared_ancilla_distance3:target_z",
+  "clean_sha256": "c26e16218e7e850c043557d44d5e2191e77c31149ea822e8f307efc0704cba94",
+  "annotated_sha256": "e0246d3d8973a6b60b8b247fe98d7681b495a0db183e8d930b829c3803dd02c4",
+  "source_path": "decoder_circuit.stim",
+  "source_sha256": "2fc17da176c6240423a89860a0c4e5fb1eeae9cbc55c1ef030458ff6926499ea",
+  "example_sha256": "da6290b7049a70bd2355bc84b8fcc3992bc5c37077a9481d5727b51b1926f297",
+  "annotation_count": 1085,
+  "polygon_count": 1085,
+  "polygon_frame_ticks": [
+    0,
+    10,
+    19,
+    28,
+    37,
+    46,
+    55,
+    64,
+    73,
+    82,
+    91,
+    100,
+    109,
+    111,
+    119
+  ],
+  "annotation_counts_by_rgba": {
+    "0,0,1,0.25": 547,
+    "1,0,0,0.25": 538
+  },
+  "stim_equal": true,
+  "annotations_only": true,
+  "num_ticks": 128,
+  "num_detectors": 976,
+  "num_observables": 2,
+  "mapping": "Retained original moments plus A(38--46) and B(29--37) inserted before original moment 38.",
+  "physical_moment_checks": [
+    {
+      "tick": 0,
+      "source_tick": 0,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 1,
+      "source_tick": 1,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 2,
+      "source_tick": 2,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 3,
+      "source_tick": 3,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 4,
+      "source_tick": 4,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 5,
+      "source_tick": 5,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 6,
+      "source_tick": 6,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 7,
+      "source_tick": 7,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 8,
+      "source_tick": 8,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 9,
+      "source_tick": 9,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 10,
+      "source_tick": 10,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 11,
+      "source_tick": 11,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 12,
+      "source_tick": 12,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 13,
+      "source_tick": 13,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 14,
+      "source_tick": 14,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 15,
+      "source_tick": 15,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 16,
+      "source_tick": 16,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 17,
+      "source_tick": 17,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 18,
+      "source_tick": 18,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 19,
+      "source_tick": 19,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 20,
+      "source_tick": 20,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 21,
+      "source_tick": 21,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 22,
+      "source_tick": 22,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 23,
+      "source_tick": 23,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 24,
+      "source_tick": 24,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 25,
+      "source_tick": 25,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 26,
+      "source_tick": 26,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 27,
+      "source_tick": 27,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 28,
+      "source_tick": 28,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 29,
+      "source_tick": 29,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 30,
+      "source_tick": 30,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 31,
+      "source_tick": 31,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 32,
+      "source_tick": 32,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 33,
+      "source_tick": 33,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 34,
+      "source_tick": 34,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 35,
+      "source_tick": 35,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 36,
+      "source_tick": 36,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 37,
+      "source_tick": 37,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 38,
+      "source_tick": 38,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 39,
+      "source_tick": 39,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 40,
+      "source_tick": 40,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 41,
+      "source_tick": 41,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 42,
+      "source_tick": 42,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 43,
+      "source_tick": 43,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 44,
+      "source_tick": 44,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 45,
+      "source_tick": 45,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 46,
+      "source_tick": 46,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 47,
+      "source_tick": 29,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 48,
+      "source_tick": 30,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 49,
+      "source_tick": 31,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 50,
+      "source_tick": 32,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 51,
+      "source_tick": 33,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 52,
+      "source_tick": 34,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 53,
+      "source_tick": 35,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 54,
+      "source_tick": 36,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 55,
+      "source_tick": 37,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 56,
+      "source_tick": 38,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 57,
+      "source_tick": 39,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 58,
+      "source_tick": 40,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 59,
+      "source_tick": 41,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 60,
+      "source_tick": 42,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 61,
+      "source_tick": 43,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 62,
+      "source_tick": 44,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 63,
+      "source_tick": 45,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 64,
+      "source_tick": 46,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 65,
+      "source_tick": 47,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 66,
+      "source_tick": 48,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 67,
+      "source_tick": 49,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 68,
+      "source_tick": 50,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 69,
+      "source_tick": 51,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 70,
+      "source_tick": 52,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 71,
+      "source_tick": 53,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 72,
+      "source_tick": 54,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 73,
+      "source_tick": 55,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 74,
+      "source_tick": 56,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 75,
+      "source_tick": 57,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 76,
+      "source_tick": 58,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 77,
+      "source_tick": 59,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 78,
+      "source_tick": 60,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 79,
+      "source_tick": 61,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 80,
+      "source_tick": 62,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 81,
+      "source_tick": 63,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 82,
+      "source_tick": 64,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 83,
+      "source_tick": 65,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 84,
+      "source_tick": 66,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 85,
+      "source_tick": 67,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 86,
+      "source_tick": 68,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 87,
+      "source_tick": 69,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 88,
+      "source_tick": 70,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 89,
+      "source_tick": 71,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 90,
+      "source_tick": 72,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 91,
+      "source_tick": 73,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 92,
+      "source_tick": 74,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 93,
+      "source_tick": 75,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 94,
+      "source_tick": 76,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 95,
+      "source_tick": 77,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 96,
+      "source_tick": 78,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 97,
+      "source_tick": 79,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 98,
+      "source_tick": 80,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 99,
+      "source_tick": 81,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 100,
+      "source_tick": 82,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 101,
+      "source_tick": 83,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 102,
+      "source_tick": 84,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 103,
+      "source_tick": 85,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 104,
+      "source_tick": 86,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 105,
+      "source_tick": 87,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 106,
+      "source_tick": 88,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 107,
+      "source_tick": 89,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 108,
+      "source_tick": 90,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 109,
+      "source_tick": 91,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 110,
+      "source_tick": 92,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 111,
+      "source_tick": 93,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 112,
+      "source_tick": 94,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 113,
+      "source_tick": 95,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 114,
+      "source_tick": 96,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 115,
+      "source_tick": 97,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 116,
+      "source_tick": 98,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 117,
+      "source_tick": 99,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 118,
+      "source_tick": 100,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 119,
+      "source_tick": 101,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 120,
+      "source_tick": 102,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 121,
+      "source_tick": 103,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 122,
+      "source_tick": 104,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 123,
+      "source_tick": 105,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 124,
+      "source_tick": 106,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 125,
+      "source_tick": 107,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 126,
+      "source_tick": 108,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 127,
+      "source_tick": 109,
+      "physical_moment_equal": true
+    },
+    {
+      "tick": 128,
+      "source_tick": 110,
+      "physical_moment_equal": true
+    }
+  ],
+  "omitted_annotations": [
+    {
+      "tick": 0,
+      "line": "#!pragma POLYGON(0,0.5,0,1) 101 109",
+      "reason": "Historical green x=8.5 line does not depict the archived x<8 versus x>=8 inter-QPU partition."
+    },
+    {
+      "tick": 10,
+      "line": "#!pragma POLYGON(0,0.5,0,1) 101 109",
+      "reason": "Historical green x=8.5 line does not depict the archived x<8 versus x>=8 inter-QPU partition."
+    }
+  ],
+  "note": "Polygons are historical display annotations, not regenerated detector checks or a new logical/circuit certification.",
+  "visualization_only": true,
+  "simulation_reference": "../../../../../dual_lcnot/shared_ancilla_distance3/target_z.stim",
+  "visualization_file": "../../../../../dual_lcnot/shared_ancilla_distance3/target_z_crumble.stim"
+}

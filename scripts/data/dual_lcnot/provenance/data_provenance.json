@@ -1,0 +1,23 @@
+{
+  "circuits_noise_and_boundaries": "Same as the prior inset figure; circuit/DEM hashes checked before sampling.",
+  "comparison_data_sha256": "3bea6823e552063df49fa0bbe03cc830300c6869674c08600baa6b29c046f366",
+  "confidence_intervals": "Pointwise 95% Wilson; standard-pair endpoints transformed by 2*q-q^2.",
+  "counts_sha256": "273f83da2e5e13a46b22e0c817e44378a48c7993ca7af4bd5d80ad7ce508a92b",
+  "d3_reuse": "15M existing + 30M independent new shots at each of ten rates",
+  "decoder": "standard PyMatching; correlations disabled at compile and decode",
+  "discards": 0,
+  "dual_either_failure": "Observed directly on the same shots; accounts for both-target failures.",
+  "dual_observables_share_shots": true,
+  "dual_reuse": "2M existing + 43M independent new shots at each of ten rates",
+  "new_physical_shots": 730000000,
+  "raw_results_sha256": "ec642e57a1496dd5c4d1df84fab5f8c99ac1ac48cfd7e06e1572ea8883f682a1",
+  "reused_physical_shots": 170000000,
+  "scope": "Target-Z readout comparison of the shared-ancilla dual-LCNOT simulation and the two-independent-LCNOT reference, with circuits initialized in the logical zero state.",
+  "separate_prior_2m_d3_rechecks": "Held out; not included in the 45M total at any point.",
+  "shots_per_circuit_per_rate": 45000000,
+  "source_manifest": "source-archive/circuit-analysis/publication_dual_vs_two_d3/shots_45m/run_manifest.json",
+  "source_manifest_sha256": "61dbbd933cb270adc8d3bae0be67e475e1d3dcea15e40124d261bc907d079203",
+  "standard_pair_estimator": "2*q-q^2 from the 45M-shot single-LCNOT failure rate q.",
+  "status": "complete",
+  "total_physical_shots": 900000000
+}

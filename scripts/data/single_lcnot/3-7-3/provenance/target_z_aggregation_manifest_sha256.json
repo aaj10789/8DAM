@@ -1,0 +1,136 @@
+{
+  "original_sha256": "9b0e6b6a9189360b72d2b3fe9980fa430b9f8d9d477c7442436b3990aad6b947",
+  "original_source_label": "<original-single-project>/results/mixed_d3_d7_d3_target_z_standard_pymatching_45m_reuse15m_plus_independent30m_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 466,
+        "sha256": "d2fdfed9982b63643e1af78ec2a9dac5bcd8bfe5b2e1ec3ca719be06663ffb77"
+      },
+      "count_ledger.json": {
+        "bytes": 3751,
+        "sha256": "31e8a14c702219e292eda2c5de795956543c51414e9c14af0a6626889c07012f"
+      },
+      "final_qa.json": {
+        "bytes": 20091,
+        "sha256": "6ffaff7871c81eb23ad49d98cc4f2d04c2fd0ae96029814e174d2f05ace23cf8"
+      },
+      "logical_z_input.stim": {
+        "bytes": 57665,
+        "sha256": "e9910a84aa9383fa0f50f2c8700662fd15a81f7dfaf718e16d59175fcdd52491"
+      },
+      "mixed_d3_d7_d3_target_z_standard_pymatching_combined_45m.csv": {
+        "bytes": 7060,
+        "sha256": "7c01dec7eae705f46dd015f5286729c0de76f1023141648815a2796d5c2f5085"
+      },
+      "mixed_d3_d7_d3_target_z_standard_pymatching_combined_45m.json": {
+        "bytes": 14286,
+        "sha256": "182a21a05cafb568b66489b2651e931110f6a99260f17aa75a687c8e8a525f48"
+      },
+      "mixed_d3_d7_d3_target_z_standard_pymatching_independent_30m_topup.csv": {
+        "bytes": 6670,
+        "sha256": "b9a1d411f78655afb2ca26a7fd11a20354ecb998b3c9e76cb4289c0c692de320"
+      },
+      "mixed_d3_d7_d3_target_z_standard_pymatching_independent_30m_topup.json": {
+        "bytes": 13905,
+        "sha256": "3dfe694c595c91dca6e050ef6fa4d240638e539f4490d86bc73c87e1984b5974"
+      },
+      "progress/p001.json": {
+        "bytes": 5405,
+        "sha256": "f94c46ec6493e0c0048f03a8ee94e7b81a2d3be57fb31593fcfdfb4d39562d0e"
+      },
+      "progress/p002.json": {
+        "bytes": 5403,
+        "sha256": "e987bec0f485ba78654e52e3539b22a6a445160a18e61ab9551512eae7780d5e"
+      },
+      "progress/p003.json": {
+        "bytes": 5403,
+        "sha256": "26236b8a57b9cb943a3deddb3f512eeef7e052700bfa8fddc208672e5830412a"
+      },
+      "progress/p004.json": {
+        "bytes": 5405,
+        "sha256": "2f0b4ef06d1d1277a76a906ec7bb505e4070094db6f03f6c016a380be271871d"
+      },
+      "progress/p005.json": {
+        "bytes": 5406,
+        "sha256": "cbe2bf875b3ab89f1aee9f96d70d28df456c7a6599ef90dbd75a2e9697ac3e20"
+      },
+      "progress/p006.json": {
+        "bytes": 5403,
+        "sha256": "d25c1fe78b9a35d834e34d8a7863d2c455198bbf0a1acea3eef7100bcdd1188d"
+      },
+      "progress/p007.json": {
+        "bytes": 5404,
+        "sha256": "f1843fa950bbca5aa9c67bebaa4095f36d0062e49461ac42d2b5fe143aa46c6c"
+      },
+      "progress/p008.json": {
+        "bytes": 5406,
+        "sha256": "6eef33b1303a5d43d42464f9aac125d14309da6344d9111b653f689bec21496d"
+      },
+      "progress/p009.json": {
+        "bytes": 5405,
+        "sha256": "bd02a1064cd29b7400460fcc97ea55fa3fa348c98dd0fad4ea89baa1fece4f22"
+      },
+      "progress/p010.json": {
+        "bytes": 5401,
+        "sha256": "2f1fc3e68895e36a4b65444cfbe4706bc2a309eaac126ede5e88bc4646d9d798"
+      },
+      "run_config.json": {
+        "bytes": 50558,
+        "sha256": "dbdac2f68cccfb83f1c0f45a59f07162f0a8ad4c3eee9b5bdcc9ca609a4c848c"
+      },
+      "source_provenance.json": {
+        "bytes": 21133,
+        "sha256": "4fbec923a8dfbc6801b563cfb3698c37d936961f29c71a4fc38915ee8c8d8c79"
+      }
+    },
+    "job": {
+      "bytes": 280,
+      "path": "<original-single-project>/results/target_z_standard_pymatching_independent_30m_topup_jobs_v1/mixed_d3_d7_d3.json",
+      "sha256": "129b6aaf7157edf04758ceb60c2ce2d806247b2189eaca3235ca44df6a21b927"
+    },
+    "runtime": {
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "scipy": "1.15.3",
+      "stim": "1.15.0"
+    },
+    "schema": "target-z-standard-pymatching-independent-30m-topup-manifest-v1",
+    "scope": {
+      "architecture": "mixed_d3_d7_d3",
+      "combined_decoder_trials": 450000000,
+      "combined_shots_per_rate": 45000000,
+      "decoder": "standard_pymatching",
+      "enable_correlations_at_compile": false,
+      "enable_correlations_at_decode": false,
+      "imported_shots_per_rate": 15000000,
+      "new_physical_shots": 300000000,
+      "new_shots_per_rate": 30000000,
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "zero_discards": true
+    },
+    "script": {
+      "bytes": 60211,
+      "path": "<original-single-project>/scripts/run_target_z_standard_pymatching_independent_30m_topup_reuse15m.py",
+      "sha256": "7b02d9f9e22a6e4c409f75720402c1dffeab6b146228d9a91602944abd8c1793"
+    },
+    "source": {
+      "detector_manifest_sha256": "a46bc0fe72f3023b9601fb8195255515114560c5f83f267564713fb5f1ccbfd5",
+      "source_manifest_sha256": "608c0448fd5bdf336d81e9ea519beb167fc825f562b755e214982f9fa9274c10"
+    },
+    "status": "PASS"
+  }
+}

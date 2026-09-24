@@ -1,0 +1,80 @@
+{
+  "original_sha256": "02e284fefc81c27a234d5937e63f3841d956a71224c6c184687d21d51886c77f",
+  "original_source_label": "<original-single-project>/results/standard_d5d5d5_tqecd_detectors_sge5_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 750,
+        "sha256": "ed3147cb50ba0876d62e6823bc337986639ef36d811d85bb0ef225044d594ad4"
+      },
+      "standard_d5d5d5_tqecd_full_detslice_with_ops.svg": {
+        "bytes": 11257081,
+        "sha256": "5c0da0ee3ee2d831eee6178ab18dbe84e8757e6c129c3c2bc6b56dd0c030d3e4"
+      },
+      "standard_d5d5d5_tqecd_target_z.stim": {
+        "bytes": 100079,
+        "sha256": "55e6efe953d024637e09a7898c085e4157404bd8f65a9f0741692d8eca807193"
+      },
+      "standard_d5d5d5_tqecd_tick_041.svg": {
+        "bytes": 42671,
+        "sha256": "a3c8a0454b1058f24d49f219f918e0d310cdff66186ae5ada7f67aed81750e92"
+      },
+      "standard_d5d5d5_tqecd_tick_050.svg": {
+        "bytes": 58893,
+        "sha256": "4c9511122610c88bc44ac3f349b6c3e207f04ef1388dfad0d00ba571c29e1069"
+      },
+      "standard_d5d5d5_tqecd_tick_082.svg": {
+        "bytes": 58329,
+        "sha256": "497bc66e782d22748a0e0f72b058a9850b504c98c61a842cf4bcf6745bf3aca5"
+      },
+      "standard_d5d5d5_tqecd_tick_091.svg": {
+        "bytes": 58968,
+        "sha256": "c5106ae810eddf7da9c4c9b024d24c6670c3b8dcb745712e20470c26358e7846"
+      },
+      "standard_d5d5d5_tqecd_tick_123.svg": {
+        "bytes": 56348,
+        "sha256": "17d0c20f45617a3a7a1202a7214d0996ca2b9d59294908d3ce608091cf767871"
+      },
+      "standard_d5d5d5_tqecd_tick_132.svg": {
+        "bytes": 42984,
+        "sha256": "b01b7034c326fbb10d58c23f8aee55c0124ffd6141d1df0079e7b35986237303"
+      },
+      "standard_d5d5d5_tqecd_tick_164.svg": {
+        "bytes": 35155,
+        "sha256": "e84491c8379921e22da76955e2eab5beb428f85367b241be0525d388a1e92865"
+      },
+      "standard_d5d5d5_tqecd_tick_165.svg": {
+        "bytes": 27829,
+        "sha256": "2cedb00ebbd4bd1dbb0ea4483c56c0c953290de33255d80fa6c2332b9ac6342e"
+      },
+      "validation_report.json": {
+        "bytes": 22652,
+        "sha256": "33bec41453411a89d66dd1fd86ab6138c2ecf67fd04a0ea9ac0044110143574e"
+      }
+    },
+    "generator": {
+      "path": "<original-single-project>/scripts/generate_standard_d5d5d5_tqecd_detectors_sge5.py",
+      "sha256": "ae8a715ce5b5b9a0dcf494d48764edfe0eb97ce4909f0dc366461a12598f2b15"
+    },
+    "output_directory": "<original-single-project>/results/standard_d5d5d5_tqecd_detectors_sge5_v1",
+    "schema": "standard-d5d5d5-tqecd-sge5-manifest-v1",
+    "scope": {
+      "all_ten_rates_circuit_and_strict_dem_sge": 5,
+      "boundary_x": 9.5,
+      "crossing_cx_locations": 45,
+      "detectors": 1248,
+      "measurements": 1345,
+      "observables": 1,
+      "qubits": 169,
+      "sampling_performed": false,
+      "ticks": 165,
+      "unique_crossing_edges": 9
+    },
+    "status": "PASS",
+    "tqecd": {
+      "git_commit": "6a2b0882a4f72545cac943ed66aece55d9d65747",
+      "version": "0.1.2"
+    }
+  }
+}

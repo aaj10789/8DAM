@@ -1,0 +1,136 @@
+% Regenerated 2026-09-21; ALL POINTS >=45M SHOTS.
+% !TEX program = xelatex
+% Small-footprint LER figure with authenticated standard d3-d3-d3 data.
+% Logical basis: Z
+% Solid lines, filled markers, shared jet-v2 series palette.
+% Standard PyMatching; correlations disabled; exact two-sided CP95 bars.
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{pgfplots}
+\usetikzlibrary{plotmarks}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Times New Roman}
+\setmathfont{STIX Two Math}
+\pgfplotsset{compat=1.18}
+\definecolor{jetMixedBlue}{HTML}{0000F1}
+\pgfplotstableread[col sep=space]{
+p ler eminus eplus
+0.001 4.0733333333333332e-05 1.8435619770689341e-06 1.9083815727974772e-06
+0.002 3.8488888888888888e-05 1.7914602478805145e-06 1.8562946537054644e-06
+0.003 3.9955555555555559e-05 1.8256733893846826e-06 1.8904979789106341e-06
+0.004 3.8244444444444445e-05 1.7856950615976574e-06 1.8505311569581834e-06
+0.005 4.1688888888888891e-05 1.8653071289766664e-06 1.9301207775307685e-06
+0.006 3.9466666666666666e-05 1.8143398833266291e-06 1.8791676854030387e-06
+0.007 4.1688888888888891e-05 1.8653071289766664e-06 1.9301207775307685e-06
+0.008 4.4244444444444442e-05 1.922267389644761e-06 1.9870660687966939e-06
+0.009 4.4822222222222224e-05 1.9349154310493969e-06 1.9997109001957652e-06
+0.010 4.6666666666666665e-05 1.9747554900074592e-06 2.0395411036571665e-06
+}\seriesAlphaData
+\definecolor{jetStandardFiveCyan}{HTML}{00B0FF}
+\pgfplotstableread[col sep=space]{
+p ler eminus eplus
+0.001 9.5555555555555561e-07 2.6401517835144237e-07 3.3157129351005961e-07
+0.002 1.7555555555555556e-06 3.6566545111234673e-07 4.3238999730248956e-07
+0.003 4.7555555555555559e-06 6.1584817196125241e-07 6.8163886446599e-07
+0.004 8.4888888888888887e-06 8.3002747602531255e-07 8.9545011039910818e-07
+0.005 1.4288888888888889e-05 1.083234147887746e-06 1.1484040910562942e-06
+0.006 2.3844444444444444e-05 1.4055305325671721e-06 1.4705072496179682e-06
+0.007 3.4577777777777775e-05 1.6968968308891597e-06 1.7617603366720672e-06
+0.008 5.1199999999999998e-05 2.0694511663288346e-06 2.1342148016411112e-06
+0.009 7.1422222222222227e-05 2.4480143283891434e-06 2.5127061790950102e-06
+0.010 9.4044444444444446e-05 2.8121698743837514e-06 2.8768096675285026e-06
+}\seriesBetaData
+\definecolor{jetStandardThreeNavy}{HTML}{000080}
+\pgfplotstableread[col sep=space]{
+p ler eminus eplus
+0.001 4.5955555555555555e-05 1.9594904135906838e-06 2.0242797584610187e-06
+0.002 8.1088888888888893e-05 2.6097978348734184e-06 2.6744649322168394e-06
+0.003 0.0001249111111111111 3.2441504132886339e-06 3.3087421187945744e-06
+0.004 0.00019222222222222224 4.0293605275833037e-06 4.0938874373994073e-06
+0.005 0.00026484444444444444 4.7331593691273075e-06 4.7976423532784395e-06
+0.006 0.00035531111111111112 5.4853612383714699e-06 5.5498053807682989e-06
+0.007 0.0004641111111111111 6.2718725797171622e-06 6.3362812252228118e-06
+0.008 0.00058468888888888891 7.0417716604985773e-06 7.1061483784034185e-06
+0.009 0.00071475555555555552 7.7874357505686425e-06 7.8517829174497462e-06
+0.010 0.00087048888888888892 8.5955570810385476e-06 8.6598728216953982e-06
+}\seriesGammaData
+\pgfplotsset{measured error bars/.style={error bars/.cd,y dir=both,y explicit,error bar style={line width=0.65pt},error mark options={rotate=90,mark size=2.15pt,line width=0.65pt}}}
+\pgfplotsset{inset error bars/.style={error bars/.cd,y dir=both,y explicit,error bar style={line width=0.50pt},error mark options={rotate=90,mark size=1.70pt,line width=0.50pt}}}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+  name=mainaxis,
+  width=7.0in,
+  height=4.40in,
+  scale only axis,
+  xmin=0.00055,
+  xmax=0.01045,
+  ymin=-0.0000375,
+  ymax=0.0015,
+  ytick={0,0.0003,0.0006,0.0009,0.0012,0.0015},
+  yticklabels={0,0.3,0.6,0.9,1.2,1.5},
+  scaled ticks=false,
+  extra description/.code={\node[anchor=south west,font=\fontsize{19}{22}\selectfont] at (rel axis cs:0,1.018) {$\times 10^{-3}$};},
+  xlabel={Inter-QPU two-qubit error probability, $p_{\mathrm{link}}$},
+  ylabel={Logical Error Rate},
+  xlabel style={font=\fontsize{21}{24.5}\selectfont},
+  ylabel style={font=\fontsize{21}{24.5}\selectfont},
+  tick label style={font=\fontsize{19}{22}\selectfont},
+  xtick={0.002,0.004,0.006,0.008,0.010},
+  xticklabel style={/pgf/number format/fixed,/pgf/number format/precision=3,/pgf/number format/fixed zerofill},
+  axis line style={black,line width=0.65pt},
+  tick style={black,line width=0.60pt},
+  major tick length=3.0pt,
+  ymajorgrids=true,
+  major grid style={draw=black!13,line width=0.45pt},
+  clip mode=individual,
+  clip marker paths=false,
+  legend columns=3,
+  legend cell align=left,
+  legend style={at={(0.018,0.978)},anchor=north west,draw=none,fill=white,fill opacity=0.90,text opacity=1,font=\fontsize{19}{22}\selectfont,column sep=4pt,row sep=1.2pt,inner xsep=2.5pt,inner ysep=2.2pt},
+]
+\addplot+[color=jetMixedBlue,solid,line width=1.30pt,mark=*,mark size=2.75pt,mark options={solid,fill=jetMixedBlue,draw=jetMixedBlue,line width=0.70pt},measured error bars]
+  table[x=p,y=ler,y error minus=eminus,y error plus=eplus] {\seriesAlphaData};
+\addlegendentry{3-7-3}
+\addplot+[color=jetStandardFiveCyan,solid,line width=1.30pt,mark=square*,mark size=2.75pt,mark options={solid,fill=jetStandardFiveCyan,draw=jetStandardFiveCyan,line width=0.70pt},measured error bars]
+  table[x=p,y=ler,y error minus=eminus,y error plus=eplus] {\seriesBetaData};
+\addlegendentry{5-5-5}
+\addplot+[color=jetStandardThreeNavy,solid,line width=1.30pt,mark=pentagon*,mark size=2.75pt,mark options={solid,fill=jetStandardThreeNavy,draw=jetStandardThreeNavy,line width=0.70pt},measured error bars]
+  table[x=p,y=ler,y error minus=eminus,y error plus=eplus] {\seriesGammaData};
+\addlegendentry{3-3-3}
+\end{axis}
+\begin{axis}[
+  at={(mainaxis.north west)},
+  anchor=north west,
+  xshift=0.740in,
+  yshift=-0.700in,
+  width=3.45in,
+  height=1.48in,
+  scale only axis,
+  xmin=0.00075,
+  xmax=0.01025,
+  ymin=-0.000005,
+  ymax=0.00016,
+  ytick={0,0.00004,0.00008,0.00012,0.00016},
+  yticklabels={0,0.4,0.8,1.2,1.6},
+  xtick={0.002,0.004,0.006,0.008,0.010},
+  scaled ticks=false,
+  extra description/.code={\node[anchor=south west,font=\fontsize{19}{22.4}\selectfont] at (rel axis cs:0,1.025) {$\times 10^{-4}$};},
+  tick label style={font=\fontsize{19}{22.4}\selectfont},
+  xticklabel style={/pgf/number format/fixed,/pgf/number format/precision=3,/pgf/number format/fixed zerofill},
+  axis background/.style={fill=white},
+  axis line style={black,line width=0.55pt},
+  tick style={black,line width=0.45pt},
+  major tick length=2.2pt,
+  ymajorgrids=true,
+  major grid style={draw=black!12,line width=0.35pt},
+  clip=true,
+]
+\addplot+[color=jetMixedBlue,solid,line width=1.10pt,mark=*,mark size=2.20pt,mark options={solid,fill=jetMixedBlue,draw=jetMixedBlue,line width=0.60pt},inset error bars]
+  table[x=p,y=ler,y error minus=eminus,y error plus=eplus] {\seriesAlphaData};
+\addplot+[color=jetStandardFiveCyan,solid,line width=1.10pt,mark=square*,mark size=2.20pt,mark options={solid,fill=jetStandardFiveCyan,draw=jetStandardFiveCyan,line width=0.60pt},inset error bars]
+  table[x=p,y=ler,y error minus=eminus,y error plus=eplus] {\seriesBetaData};
+\end{axis}
+\end{tikzpicture}
+\end{document}

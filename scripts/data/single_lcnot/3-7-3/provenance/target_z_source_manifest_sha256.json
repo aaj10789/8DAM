@@ -1,0 +1,191 @@
+{
+  "original_sha256": "608c0448fd5bdf336d81e9ea519beb167fc825f562b755e214982f9fa9274c10",
+  "original_source_label": "<original-single-project>/results/mixed_d3_d7_d3_same_tick_tqecd_rotated_vs_original_target_z_paired_decoders_v1/manifest.json",
+  "path_sanitization": "Original workspace paths replaced with descriptive source labels.",
+  "report": {
+    "artifacts": {
+      "README.md": {
+        "bytes": 784,
+        "sha256": "69261fc450e7e8314118d5ac1c3eadd5c4fc446c2a6ba8c0b9a02d271b3fb6a1"
+      },
+      "final_qa.json": {
+        "bytes": 33998,
+        "sha256": "f312a3022e07ac05bf8132ce2765c2ea0f146e829b4305633438f207fdd3f45a"
+      },
+      "mixed_rotated_vs_original_target_z_correlated_pymatching.pdf": {
+        "bytes": 30541,
+        "sha256": "e5a760b0b69540d30985e706f41659ac4799e0068776c29a265df3446a3e6ad6"
+      },
+      "mixed_rotated_vs_original_target_z_correlated_pymatching.png": {
+        "bytes": 312898,
+        "sha256": "3a8dbb968016b119590ce9af43cc212d104698d2dcc8482b9574425fd7674424"
+      },
+      "mixed_rotated_vs_original_target_z_correlated_pymatching.svg": {
+        "bytes": 82173,
+        "sha256": "4cb4e266bb479d9b7bb9b2e5ef90849322e4f31b24de82f2ebd7c660ff2b7005"
+      },
+      "mixed_rotated_vs_original_target_z_standard_pymatching.pdf": {
+        "bytes": 31037,
+        "sha256": "bb489cc020da81fce822ad6640ae9c318fe1d9ff4fe340145069e67722daeb62"
+      },
+      "mixed_rotated_vs_original_target_z_standard_pymatching.png": {
+        "bytes": 309943,
+        "sha256": "18fcc2aef59f3306f4e998b45c6839394ae437316d90deed96b78a3ac2485cc7"
+      },
+      "mixed_rotated_vs_original_target_z_standard_pymatching.svg": {
+        "bytes": 83694,
+        "sha256": "410a24d24d01f853ea10b8cbaf0d5c5d9bc46d05917eb38026900202052563e4"
+      },
+      "paired_decoder_contingency.csv": {
+        "bytes": 1214,
+        "sha256": "e823b469afddcccaeb26ee6341ad6fd5a9c157b2b27a039d2224c9fd4352620f"
+      },
+      "progress/original_p001.json": {
+        "bytes": 1465,
+        "sha256": "39413be0d0bbeee630068eb0ff3551f3c91f7df2c84199014340a5c44fce6eef"
+      },
+      "progress/original_p002.json": {
+        "bytes": 1465,
+        "sha256": "b9ca99d66c2fecc2d4025e172c103516a1ca2d208c63e56ac9a6982ec42084b4"
+      },
+      "progress/original_p003.json": {
+        "bytes": 1465,
+        "sha256": "ae163cdc2f0efbec36d6a6f80e6071b18aa8925bb3ffc54db84c40a6873c7ec1"
+      },
+      "progress/original_p004.json": {
+        "bytes": 1465,
+        "sha256": "9d5e08d5c63282ad26412cc8368a52a3bcd10c71df89d5436a44c69cf34570c8"
+      },
+      "progress/original_p005.json": {
+        "bytes": 1465,
+        "sha256": "fca24c2763bdf94e9800f7fb871a4e0af488349900ddeca09a357a792d139114"
+      },
+      "progress/original_p006.json": {
+        "bytes": 1465,
+        "sha256": "28c5bf77d9f260a6fd7557191db282717bea8086eb9eca1e57bbb0078fa00a95"
+      },
+      "progress/original_p007.json": {
+        "bytes": 1465,
+        "sha256": "6022a73582d50d655d86da5fa018a2d234ec684a160c83559686a538d5ffc07a"
+      },
+      "progress/original_p008.json": {
+        "bytes": 1465,
+        "sha256": "b26f4bcb58ce55ae1cff084f36d685a85f2af8005c3f9af6585e126a840aba9f"
+      },
+      "progress/original_p009.json": {
+        "bytes": 1465,
+        "sha256": "1c42acfb962098e98fa5ce6c3dbd2f9b9d63558f5a83d798884dd2c75fee6447"
+      },
+      "progress/original_p010.json": {
+        "bytes": 1463,
+        "sha256": "47d0740ded3695e6f6b75bae1d45b14d1fd658bd934044d0b60b7fba238fca72"
+      },
+      "progress/rotated_p001.json": {
+        "bytes": 1464,
+        "sha256": "eaf7b17eced320a691934c6363d7a4a18396f0650c5a0cb82df46d4abd732f16"
+      },
+      "progress/rotated_p002.json": {
+        "bytes": 1464,
+        "sha256": "09bb17038b811608a0836cedf8869c18be1727e2d6500b61185d99ba4222b95b"
+      },
+      "progress/rotated_p003.json": {
+        "bytes": 1464,
+        "sha256": "1de465c4aa750f141177c5fd2a79ff71c70f1f3a8118d8efa9cf390ba508035f"
+      },
+      "progress/rotated_p004.json": {
+        "bytes": 1465,
+        "sha256": "48035c1a4aa637947747a7bd696cd23b659d922598c5d4f5aaeb6f7d73f858d8"
+      },
+      "progress/rotated_p005.json": {
+        "bytes": 1465,
+        "sha256": "38189d6fa3c803077421be6c6826fd6bc8f7710f94b26d0897b6cc0b1cf2f9a1"
+      },
+      "progress/rotated_p006.json": {
+        "bytes": 1465,
+        "sha256": "c5a94cd4f806153914810b75656764a6809db7dd97a3b51988a1bed72d59fc00"
+      },
+      "progress/rotated_p007.json": {
+        "bytes": 1466,
+        "sha256": "dcaf2d2d01cf718c2004efe2433758564c7d700fe9f233fc4ba6157f83c21b6d"
+      },
+      "progress/rotated_p008.json": {
+        "bytes": 1466,
+        "sha256": "09abde217a3fa0d97bbf86dfbee2aafb82551f17badd3b959ceb036b9ac04195"
+      },
+      "progress/rotated_p009.json": {
+        "bytes": 1467,
+        "sha256": "116a1a3540647c5f7587dc50448d85be7fffbc9f8d7e2f8da4ed12088fb8139f"
+      },
+      "progress/rotated_p010.json": {
+        "bytes": 1465,
+        "sha256": "9b3d80521dd27e3d87761c43c4df2020e21a0acdfadfc0cc119f347aea7e897d"
+      },
+      "rotated_boundary_effect.csv": {
+        "bytes": 2135,
+        "sha256": "7d6fa9d87dc094a34f9b3729d8b10ac33b2b5600e6f1e8041e44865a5a54b730"
+      },
+      "run_config.json": {
+        "bytes": 2296,
+        "sha256": "0ecfc28bc44563266deaead903a91c9198791f3923e6ccd1598da4fae7235051"
+      },
+      "same_tick_tqecd_paired_decoders_summary.csv": {
+        "bytes": 24693,
+        "sha256": "5ee233cba1120d0f1ef7bb90b0b2a2a1abd314a948a7b64070b80f1d876a1c0e"
+      },
+      "same_tick_tqecd_paired_decoders_summary.json": {
+        "bytes": 51937,
+        "sha256": "73b7647a906a803546f4fad889e1e70cdc96a34660dc6559170b4d9359de69c0"
+      }
+    },
+    "base_runner": {
+      "path": "<original-single-project>/scripts/run_plot_mixed_rotated_vs_original_target_z_paired_decoders.py",
+      "sha256": "aa25d2132213575bbb0a116a4b78ec9aa09fb2a2d1a8b11b1c5642653eba794f"
+    },
+    "plots": {
+      "correlated": [
+        "mixed_rotated_vs_original_target_z_correlated_pymatching.png",
+        "mixed_rotated_vs_original_target_z_correlated_pymatching.svg",
+        "mixed_rotated_vs_original_target_z_correlated_pymatching.pdf"
+      ],
+      "standard": [
+        "mixed_rotated_vs_original_target_z_standard_pymatching.png",
+        "mixed_rotated_vs_original_target_z_standard_pymatching.svg",
+        "mixed_rotated_vs_original_target_z_standard_pymatching.pdf"
+      ]
+    },
+    "schema": "same-tick-tqecd-rotated-vs-original-paired-decoder-manifest-v1",
+    "scope": {
+      "decoder_trials": 600000000,
+      "detectors": 688,
+      "fresh_physical_shots": 300000000,
+      "observable": "target-Z logical flow",
+      "original_crossing_cx_locations": 70,
+      "rates": [
+        0.001,
+        0.002,
+        0.003,
+        0.004,
+        0.005,
+        0.006,
+        0.007,
+        0.008,
+        0.009,
+        0.01
+      ],
+      "rotated_crossing_cx_locations": 120,
+      "shots_per_circuit_rate": 15000000,
+      "zero_discards": true
+    },
+    "script": {
+      "path": "<original-single-project>/scripts/run_plot_mixed_same_tick_tqecd_rotated_vs_original_target_z_paired_decoders.py",
+      "sha256": "2bf7a8653a3a895cda7c737f69e7221ce887366fb7f1e2ae7ff7c67f531f1844"
+    },
+    "software": {
+      "numpy": "1.26.4",
+      "pymatching": "2.4.0",
+      "python": "3.10.0",
+      "stim": "1.15.0"
+    },
+    "status": "PASS"
+  }
+}
